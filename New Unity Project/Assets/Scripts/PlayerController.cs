@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -21,9 +21,7 @@ public class PlayerController : MonoBehaviour
     public float mSpeed = 5.0f;
     public float mJumpStrength = 10.0f;
 
-    [SerializeField] private AudioSource jumpSoundEffect;
-    [SerializeField] private AudioSource deathSoundEffect;
-    [SerializeField] private AudioSource runSoundEffect;
+
 
   //  [Header("State Sprites")]
   //  public RuntimeAnimatorController mIdleController;
@@ -65,7 +63,6 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetKey(KeyCode.RightArrow) || (Input.GetKey(KeyCode.LeftArrow)))
                 {
                     _bPlayerStateChanged = true;
-                    runSoundEffect.Play();
                     mPlayerState = CharacterState.RUNNING;
                     if (Input.GetKey(KeyCode.RightArrow))
                     {
@@ -79,7 +76,6 @@ public class PlayerController : MonoBehaviour
                 else if (Input.GetKey(KeyCode.UpArrow))
                 {
                   //  _mSoundManager.NotifyJump();
-		            jumpSoundEffect.Play();
                     gameObject.GetComponent<Rigidbody2D>().velocity = transform.up * mJumpStrength;
                     _bPlayerStateChanged = true;
                     mPlayerState = CharacterState.JUMPING;
@@ -93,7 +89,6 @@ public class PlayerController : MonoBehaviour
                   //  _mSoundManager.NotifyJump();
                     gameObject.GetComponent<Rigidbody2D>().velocity = transform.up * mJumpStrength;
                     _bPlayerStateChanged = true;
-                    jumpSoundEffect.Play();
                     mPlayerState = CharacterState.JUMPING;
                     StartCoroutine("CheckGrounded");
 
