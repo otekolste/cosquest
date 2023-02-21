@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
 
 	}
 
-	private void LateUpdate()
+	private void Update()
 	{
 		bool wasGrounded = m_Grounded;
 		m_Grounded = false;
@@ -61,9 +61,8 @@ public class PlayerController : MonoBehaviour
 	}
 
 
-	public void Move(float move, bool crouch, bool jump)
+	public void Move(float move, bool crouch, MovementStat status)
 	{
-
 
 		//only control the player if grounded or airControl is turned on
 		if (m_Grounded || m_AirControl)
@@ -73,6 +72,18 @@ public class PlayerController : MonoBehaviour
 			// Move the character by finding the target velocity
 			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
 			// And then smoothing it out and applying it to the character
+			if(status.dash && move != 0.0f)
+			{
+				if(m_FacingRight)
+				{
+					targetVelocity = new Vector2(50f, 0);
+				}
+				else
+				{
+					targetVelocity = new Vector2(-50f, 0);
+				}
+			}
+
 			m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 
 			// If the input is moving the player right and the player is facing left...
@@ -89,7 +100,7 @@ public class PlayerController : MonoBehaviour
 			}
 		}
 		// If the player should jump...
-		if (m_Grounded && jump)
+		if (m_Grounded && status.jump)
 		{
 			// Add a vertical force to the player.
 			m_Grounded = false;
