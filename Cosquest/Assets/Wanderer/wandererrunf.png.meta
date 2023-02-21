@@ -1,0 +1,605 @@
+fileFormatVersion: 2
+guid: 1f598e33f3eab984286c0d78a828c412
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2729004843089055086
+    second: wandererrunf_0
+  - first:
+      213: -6160063886292380830
+    second: wandererrunf_1
+  - first:
+      213: -1579322542578792326
+    second: wandererrunf_2
+  - first:
+      213: 4237623861901650411
+    second: wandererrunf_3
+  - first:
+      213: -1751532868211084040
+    second: wandererrunf_4
+  - first:
+      213: 2680117156628132148
+    second: wandererrunf_5
+  - first:
+      213: -4469683904375479719
+    second: wandererrunf_6
+  - first:
+      213: -3967855197168920678
+    second: wandererrunf_7
+  - first:
+      213: -8516816348524519431
+    second: wandererrunf_8
+  - first:
+      213: -6546091854551774710
+    second: wandererrunf_9
+  - first:
+      213: -567846719174668947
+    second: wandererrunf_10
+  - first:
+      213: 5703594587731271808
+    second: wandererrunf_11
+  - first:
+      213: -2830030166900125671
+    second: wandererrunf_12
+  - first:
+      213: 898093279727971577
+    second: wandererrunf_13
+  - first:
+      213: 3292126364645220274
+    second: wandererrunf_14
+  - first:
+      213: 4206317616739413775
+    second: wandererrunf_15
+  - first:
+      213: -1675305170214354304
+    second: wandererrunf_16
+  - first:
+      213: -3100804551646568568
+    second: wandererrunf_17
+  - first:
+      213: 2105281743460103122
+    second: wandererrunf_18
+  - first:
+      213: 3459541253155496046
+    second: wandererrunf_0
+  - first:
+      213: 4139326881577942863
+    second: wandererrunf_1
+  - first:
+      213: 6272867979878004191
+    second: wandererrunf_2
+  - first:
+      213: 234152435591398113
+    second: wandererrunf_3
+  - first:
+      213: -414014065624866727
+    second: wandererrunf_4
+  - first:
+      213: 6005643078338746638
+    second: wandererrunf_5
+  - first:
+      213: -5398175348838673367
+    second: wandererrunf_6
+  - first:
+      213: -6621363546619528864
+    second: wandererrunf_7
+  - first:
+      213: -2054351510755459439
+    second: wandererrunf_8
+  - first:
+      213: -7650749277932111480
+    second: wandererrunf_9
+  - first:
+      213: 8750040582747366591
+    second: wandererrunf_10
+  - first:
+      213: -7808891718278172532
+    second: wandererrunf_11
+  - first:
+      213: -5903175582162772818
+    second: wandererrunf_12
+  - first:
+      213: 4414585475926963460
+    second: wandererrunf_13
+  - first:
+      213: 4469401094337886723
+    second: wandererrunf_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wandererrunf_0
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 2951
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60a428b072c20030800000000000000
+      internalID: 3459541253155496046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_1
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 2919
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fbda12ed7d17930800000000000000
+      internalID: 4139326881577942863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_2
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 2339
+        width: 304
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5fc8f4134bd0750800000000000000
+      internalID: 6272867979878004191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_3
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 2376
+        width: 385
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2c7ba4660ef3300800000000000000
+      internalID: 234152435591398113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_4
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 2417
+        width: 435
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9502a6e9660214af0800000000000000
+      internalID: -414014065624866727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_5
+      rect:
+        serializedVersion: 2
+        x: 3034
+        y: 2401
+        width: 440
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e091a2c7f84585350800000000000000
+      internalID: 6005643078338746638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_6
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 2466
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9245339fe14d515b0800000000000000
+      internalID: -5398175348838673367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_7
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1661
+        width: 404
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069b5039fe03c14a0800000000000000
+      internalID: -6621363546619528864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_8
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1618
+        width: 265
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e32a57f2a7d73e0800000000000000
+      internalID: -2054351510755459439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_9
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 1622
+        width: 269
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889b74f211413d590800000000000000
+      internalID: -7650749277932111480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_10
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 1636
+        width: 374
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4a8e0ec836e6970800000000000000
+      internalID: 8750040582747366591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_11
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 1575
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c803a820b5e31a390800000000000000
+      internalID: -7808891718278172532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_12
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 931
+        width: 416
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac9d6a9515b31ea0800000000000000
+      internalID: -5903175582162772818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_13
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1199
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405b933d912c34d30800000000000000
+      internalID: 4414585475926963460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_14
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 953
+        width: 453
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf50687c7bffad20800000000000000
+      internalID: 3292126364645220274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_15
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 901
+        width: 470
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f683e1697df5a30800000000000000
+      internalID: 4206317616739413775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_16
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 862
+        width: 338
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0828ff6e2de10c8e0800000000000000
+      internalID: -1675305170214354304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_17
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 165
+        width: 236
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f113560bab7f4d0800000000000000
+      internalID: -3100804551646568568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wandererrunf_18
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 170
+        width: 285
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3fd076796773d10800000000000000
+      internalID: 2105281743460103122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
