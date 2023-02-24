@@ -15,6 +15,10 @@ public class PlayerMovement : MonoBehaviour
 	float horizontalMove = 0f;
 	bool jump = false;
 
+	[SerializeField] private AudioSource jumpSoundEffect;
+	[SerializeField] private AudioSource deathSoundEffect;
+	[SerializeField] private AudioSource runSoundEffect;
+
 	// Update is called once per frame
 	void Update()
 	{
@@ -26,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
 		if (Input.GetButtonDown("Jump"))
 		{
 			jump = true;
+			jumpSoundEffect.Play();
 
 			animator.SetBool("IsJumping", true);
 		}
