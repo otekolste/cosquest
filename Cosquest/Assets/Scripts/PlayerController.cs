@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
 
 	}
 
-	private void LateUpdate()
+	private void FixedUpdate()
 	{
 		bool wasGrounded = m_Grounded;
 		m_Grounded = false;
