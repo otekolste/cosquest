@@ -2452,6 +2452,7 @@ GameObject:
   - component: {fileID: 1071080789}
   - component: {fileID: 1071080790}
   - component: {fileID: 1071080788}
+  - component: {fileID: 1071080791}
   m_Layer: 13
   m_Name: Wanderer
   m_TagString: Player
@@ -2637,6 +2638,18 @@ MonoBehaviour:
   jumpSoundEffect: {fileID: 285633197}
   deathSoundEffect: {fileID: 0}
   runSoundEffect: {fileID: 0}
+--- !u!114 &1071080791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071080783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1626ea5bd3e0714b92f8ea36ca12f5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1161245548
 GameObject:
   m_ObjectHideFlags: 0
