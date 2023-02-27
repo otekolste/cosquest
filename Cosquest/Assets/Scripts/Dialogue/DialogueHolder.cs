@@ -36,7 +36,7 @@ namespace DialogueSystem{
 
         private IEnumerator writeSentence(string[] input, AudioSource sound, Sprite cSprite, string cName)
         {
-            Debug.Log("hi");
+           // Debug.Log("hi");
             nameHolder.text = cName;
             textHolder.text = "";
             imageHolder.sprite = cSprite;
@@ -49,11 +49,18 @@ namespace DialogueSystem{
                     textHolder.text += letter;
                     sound.Play(); //play letter sound
                     yield return new WaitForSeconds(delay);
+                    if(Input.GetMouseButton(1))
+                    {
+
+                        textHolder.text = input[j];
+                        break;
+                    }
                 }
+
                 yield return new WaitUntil(() => Input.GetMouseButton(0));
             }
             //  yield return new WaitUntil(()=>Input.GetMouseButton(0));
-            Debug.Log("all done!");
+          //  Debug.Log("all done!");
             finished = true;
         }
 

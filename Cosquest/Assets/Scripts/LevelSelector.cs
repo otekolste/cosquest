@@ -9,6 +9,6 @@ public class LevelSelector : MonoBehaviour
     // Update is called once per frame
    public void OpenScene()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("initial_cutscene");
     }
 }

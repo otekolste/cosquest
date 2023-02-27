@@ -19,6 +19,11 @@ public class PlayerController : MonoBehaviour
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
 
+	public AudioSource DeathSound;
+
+	private Vector3 RespawnPoint;
+	public GameObject FallDetector;
+
 	[Header("Events")]
 	[Space]
 
@@ -36,10 +41,10 @@ public class PlayerController : MonoBehaviour
 		if (OnLandEvent == null)
 			OnLandEvent = new UnityEvent();
 
-
+		RespawnPoint = transform.position;
 	}
 
-	private void FixedUpdate()
+	private void Update()
 	{
 		bool wasGrounded = m_Grounded;
 		m_Grounded = false;
@@ -49,7 +54,7 @@ public class PlayerController : MonoBehaviour
 		Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
 		for (int i = 0; i < colliders.Length; i++)
 		{
-			if (colliders[i].gameObject != gameObject)
+			if (colliders[i].gameObject != gameObject && colliders[i].tag=="Platform")
 			{
 				m_Grounded = true;
 				if (!wasGrounded) { 
@@ -58,6 +63,8 @@ public class PlayerController : MonoBehaviour
 				}
 			}
 		}
+
+		FallDetector.transform.position = new Vector2(transform.position.x, FallDetector.transform.position.y);
 	}
 
 
@@ -108,4 +115,20 @@ public class PlayerController : MonoBehaviour
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+
+		if (collision.tag == "FallDetector")
+		{
+			DeathSound.Play();
+			transform.position = RespawnPoint;
+		}
+
+		if(collision.tag == "Checkpoint")
+        {
+			RespawnPoint = collision.transform.position;
+        }
+	}
+
 }
