@@ -14,7 +14,7 @@ namespace DialogueSystem{
         [SerializeField] private Text nameHolder;
 
 
-        private bool finished;
+        public bool finished;
 
         private void Awake(){
             //    Debug.Log("Good morning!");
