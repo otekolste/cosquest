@@ -9,6 +9,7 @@ TagManager:
   - FallDetector
   - Checkpoint
   - jumptag
+  - Enemy
   layers:
   - Default
   - TransparentFX

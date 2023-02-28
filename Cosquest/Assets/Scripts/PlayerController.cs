@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
 	}
 
 
-	public void Move(float move, bool crouch, MovementStat status)
+	public void Move(float move, MovementStat status)
 	{
 
 		//only control the player if grounded or airControl is turned on
