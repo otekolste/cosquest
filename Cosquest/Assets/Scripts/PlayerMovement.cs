@@ -31,8 +31,7 @@ public class PlayerMovement : MonoBehaviour
 		{
 			jump = true;
 			jumpSoundEffect.Play();
-			CanvasGroup cg = GameObject.FindGameObjectWithTag("jumptag").GetComponent<CanvasGroup>();
-			cg.alpha = 1;
+
 			animator.SetBool("IsJumping", true);
 		}
 
@@ -44,8 +43,6 @@ public class PlayerMovement : MonoBehaviour
 	{
 		animator.SetBool("IsJumping", false);
 		Debug.Log("landed!");
-		CanvasGroup cg = GameObject.FindGameObjectWithTag("jumptag").GetComponent<CanvasGroup>();
-		cg.alpha = 0;
 	}
 
 
