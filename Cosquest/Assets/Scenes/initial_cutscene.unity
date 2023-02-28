@@ -349,6 +349,133 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &175376452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 175376454}
+  - component: {fileID: 175376453}
+  m_Layer: 0
+  m_Name: bgMusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &175376453
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175376452}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2ed4d21eaa47c0940adf2852fc29fd9f, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &175376454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175376452}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 559, y: 186, z: -206.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &226356036
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,7 +528,7 @@ MonoBehaviour:
   - I see...
   - There's one more thing I should mention.
   - Before crashing, I thought I saw, um...
-  characterSprite: {fileID: 21300000, guid: 28e81fb75242c48db8b8fdbe3591c71e, type: 3}
+  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
   sound: {fileID: 75360888}
   name: Wanderer
 --- !u!1 &415896241
@@ -538,7 +665,7 @@ MonoBehaviour:
   input:
   - Alright then...well...
   - ...I suppose I'd better get going.
-  characterSprite: {fileID: 21300000, guid: 28e81fb75242c48db8b8fdbe3591c71e, type: 3}
+  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
   sound: {fileID: 75360888}
   name: Wanderer
 --- !u!1 &533326422
@@ -592,7 +719,7 @@ MonoBehaviour:
   input:
   - ...um...it looked like...
   - ...Never mind. I was probably seeing things.
-  characterSprite: {fileID: 21300000, guid: 28e81fb75242c48db8b8fdbe3591c71e, type: 3}
+  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
   sound: {fileID: 75360888}
   name: Wanderer
 --- !u!1 &639373932
@@ -1809,7 +1936,7 @@ MonoBehaviour:
   input:
   - That's great news!
   - So if I can just find the portal on this planet, it'll take me back to Earth?
-  characterSprite: {fileID: 21300000, guid: 28e81fb75242c48db8b8fdbe3591c71e, type: 3}
+  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
   sound: {fileID: 75360888}
   name: Wanderer
 --- !u!1 &1923828473
@@ -1921,8 +2048,8 @@ MonoBehaviour:
     several planets and their respective portals before reaching one that will bring
     you back to Earth.
   - A map is being sent to you now.
-  characterSprite: {fileID: 21300000, guid: 28e81fb75242c48db8b8fdbe3591c71e, type: 3}
-  sound: {fileID: 75360888}
+  characterSprite: {fileID: 21300000, guid: 762a9530a0b13e347a9243ca9ffeb514, type: 3}
+  sound: {fileID: 1312958847}
   name: Wanderer
 --- !u!1 &2132080710
 GameObject:
@@ -1935,6 +2062,7 @@ GameObject:
   - component: {fileID: 2132080711}
   - component: {fileID: 2132080713}
   - component: {fileID: 2132080712}
+  - component: {fileID: 2132080714}
   m_Layer: 5
   m_Name: nameText
   m_TagString: Untagged
@@ -1951,15 +2079,15 @@ RectTransform:
   m_GameObject: {fileID: 2132080710}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1.505, z: 1}
+  m_LocalScale: {x: 0.52143, y: 0.7847522, z: 0.52143}
   m_Children: []
   m_Father: {fileID: 1581963094}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -182, y: 58}
-  m_SizeDelta: {x: 105.5, y: 42.86}
+  m_AnchoredPosition: {x: -182, y: 67}
+  m_SizeDelta: {x: 173.7, y: 58.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2132080712
 MonoBehaviour:
@@ -1982,7 +2110,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: da09113bca2954fb8832bb0c546e2d7d, type: 3}
-    m_FontSize: 27
+    m_FontSize: 46
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2005,3 +2133,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132080710}
   m_CullTransparentMesh: 0
+--- !u!223 &2132080714
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132080710}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
