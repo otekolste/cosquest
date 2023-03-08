@@ -6,11 +6,7 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
 
-    [SerializeField] public Image imageHolder;
-    [SerializeField] public float delay;
-    [SerializeField] public float delayBetweenLines;
-    [SerializeField] public Text textHolder;
-    [SerializeField] public Text nameHolder;
+
 
     [SerializeField] public Animator anim;
 
@@ -26,8 +22,9 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-    public void dialogueSequence()
+    public void dialogueSequence(Image imageHolder, float delay, float delayBetweenLines, Text textHolder, Text nameHolder)
     {
+        Debug.Log("Starting dialogue!");
         anim.SetBool("IsOpen", true);
         Debug.Log(textHolder.transform.childCount);
 
@@ -38,25 +35,25 @@ public class DialogueManager : MonoBehaviour
             lines.Enqueue(textHolder.transform.GetChild(i).GetComponent<DialogueLine>());
             Debug.Log("yippee!");
         }
-        DisplayNextSentence();
+        DisplayNextSentence(imageHolder, delay, delayBetweenLines, textHolder, nameHolder);
 
     }
 
-    private void DisplayNextSentence()
+    private void DisplayNextSentence(Image imageHolder, float delay, float delayBetweenLines, Text textHolder, Text nameHolder)
     {
         if(lines.Count==0)
         {
-            EndDialogue();
+            EndDialogue(textHolder);
             Debug.Log("all done!");
             return;
         }
         Debug.Log(lines.Count);
         DialogueLine currentLine = lines.Dequeue();
         StopAllCoroutines();
-        StartCoroutine(writeSentence(currentLine.input, currentLine.sound, currentLine.characterSprite, currentLine.name));
+        StartCoroutine(writeSentence(currentLine.input, currentLine.sound, currentLine.characterSprite, currentLine.name, imageHolder, nameHolder, textHolder, delay, delayBetweenLines));
     }
 
-    private IEnumerator writeSentence(string[] input, AudioSource sound, Sprite cSprite, string cName)
+    private IEnumerator writeSentence(string[] input, AudioSource sound, Sprite cSprite, string cName, Image imageHolder, Text nameHolder, Text textHolder, float delay, float delayBetweenLines)
     {
         // Debug.Log("hi");
         nameHolder.text = cName;
@@ -82,12 +79,18 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitUntil(() => Input.GetMouseButton(0));
         }
 
-        DisplayNextSentence();
+        DisplayNextSentence(imageHolder, delay, delayBetweenLines, textHolder, nameHolder);
     }
 
-    private void EndDialogue()
+    private void EndDialogue(Text textHolder)
     {
+        Debug.Log("Dialogue over!");
         anim.SetBool("IsOpen", false);
+
+        textHolder.enabled = false;
+
+
+
 
     }
 }
