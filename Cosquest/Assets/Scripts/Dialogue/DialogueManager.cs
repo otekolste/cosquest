@@ -25,6 +25,7 @@ public class DialogueManager : MonoBehaviour
     public void dialogueSequence(Image imageHolder, float delay, float delayBetweenLines, Text textHolder, Text nameHolder)
     {
         Debug.Log("Starting dialogue!");
+        finished = false;
         anim.SetBool("IsOpen", true);
         Debug.Log(textHolder.transform.childCount);
 
@@ -49,7 +50,6 @@ public class DialogueManager : MonoBehaviour
         }
         Debug.Log(lines.Count);
         DialogueLine currentLine = lines.Dequeue();
-        StopAllCoroutines();
         StartCoroutine(writeSentence(currentLine.input, currentLine.sound, currentLine.characterSprite, currentLine.name, imageHolder, nameHolder, textHolder, delay, delayBetweenLines));
     }
 
@@ -59,7 +59,7 @@ public class DialogueManager : MonoBehaviour
         nameHolder.text = cName;
         textHolder.text = "";
         imageHolder.sprite = cSprite;
-        finished = false;
+
         for (int j = 0; j < input.Length; j++)
         {
             textHolder.text = "";
@@ -84,6 +84,7 @@ public class DialogueManager : MonoBehaviour
 
     private void EndDialogue(Text textHolder)
     {
+        finished = true;
         Debug.Log("Dialogue over!");
         anim.SetBool("IsOpen", false);
 
@@ -91,6 +92,10 @@ public class DialogueManager : MonoBehaviour
 
 
 
+    }
 
+    public bool IsDialogueOver()
+    {
+        return finished;
     }
 }

@@ -24,6 +24,8 @@ public class PlayerController : MonoBehaviour
 	private Vector3 RespawnPoint;
 	public GameObject FallDetector;
 
+	public bool canMove;
+
 	[Header("Events")]
 	[Space]
 
@@ -42,6 +44,7 @@ public class PlayerController : MonoBehaviour
 			OnLandEvent = new UnityEvent();
 
 		RespawnPoint = transform.position;
+		canMove = true;
 	}
 
 	private void Update()
@@ -70,48 +73,50 @@ public class PlayerController : MonoBehaviour
 
 	public void Move(float move, MovementStat status)
 	{
-
-		//only control the player if grounded or airControl is turned on
-		if (m_Grounded || m_AirControl)
+		if (canMove)
 		{
-
-
-			// Move the character by finding the target velocity
-			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
-			// And then smoothing it out and applying it to the character
-			if(status.dash && move != 0.0f)
+			//only control the player if grounded or airControl is turned on
+			if (m_Grounded || m_AirControl)
 			{
-				if(m_FacingRight)
+
+
+				// Move the character by finding the target velocity
+				Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
+				// And then smoothing it out and applying it to the character
+				if (status.dash && move != 0.0f)
 				{
-					targetVelocity = new Vector2(50f, 0);
+					if (m_FacingRight)
+					{
+						targetVelocity = new Vector2(50f, 0);
+					}
+					else
+					{
+						targetVelocity = new Vector2(-50f, 0);
+					}
 				}
-				else
+
+				m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
+
+				// If the input is moving the player right and the player is facing left...
+				if (move > 0 && !m_FacingRight)
 				{
-					targetVelocity = new Vector2(-50f, 0);
+					// ... flip the player.
+					Flip();
+				}
+				// Otherwise if the input is moving the player left and the player is facing right...
+				else if (move < 0 && m_FacingRight)
+				{
+					// ... flip the player.
+					Flip();
 				}
 			}
-
-			m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
-
-			// If the input is moving the player right and the player is facing left...
-			if (move > 0 && !m_FacingRight)
+			// If the player should jump...
+			if (m_Grounded && status.jump)
 			{
-				// ... flip the player.
-				Flip();
+				// Add a vertical force to the player.
+				m_Grounded = false;
+				m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 			}
-			// Otherwise if the input is moving the player left and the player is facing right...
-			else if (move < 0 && m_FacingRight)
-			{
-				// ... flip the player.
-				Flip();
-			}
-		}
-		// If the player should jump...
-		if (m_Grounded && status.jump)
-		{
-			// Add a vertical force to the player.
-			m_Grounded = false;
-			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 		}
 	}
 
