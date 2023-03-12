@@ -32,31 +32,34 @@ public class PlayerMovement : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-
-		horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-
-		animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
-
-		if (Input.GetButtonDown("Jump"))
+		if(controller.canMove)
 		{
-			status.jump = true;
-			jumpSoundEffect.Play();
-			CanvasGroup cg = GameObject.FindGameObjectWithTag("jumptag").GetComponent<CanvasGroup>();
-			cg.alpha = 1;
-			animator.SetBool("IsJumping", true);
+			horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+
+			animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
+			if (Input.GetButtonDown("Jump"))
+			{
+				status.jump = true;
+				jumpSoundEffect.Play();
+				CanvasGroup cg = GameObject.FindGameObjectWithTag("jumptag").GetComponent<CanvasGroup>();
+				cg.alpha = 1;
+				animator.SetBool("IsJumping", true);
+			}
+
+			//ToDo: Implement dash sound effect and cg
+			if (Input.GetButtonDown("Dash"))
+			{
+				status.dash = true;
+
+				animator.SetBool("IsDashing", true);
+
+				DashTimer.startTimer(0.05f, stopDash);
+			}
+
+			DashTimer.Update();
 		}
 
-		//ToDo: Implement dash sound effect and cg
-		if (Input.GetButtonDown("Dash"))
-		{
-			status.dash = true;
-
-			animator.SetBool("IsDashing", true);
-
-			DashTimer.startTimer(0.05f, stopDash);
-		}
-
-		DashTimer.Update();
 	}
 
 	public void OnLanding()

@@ -9,6 +9,6 @@ public class CameraFollow : MonoBehaviour
 
     void FixedUpdate()
     {
-        transform.position = new Vector3(player.position.x + offset.x, player.position.y + offset.y, offset.z); 
+        transform.position = new Vector3(player.position.x + offset.x, offset.y, player.position.z + offset.z); 
     }
 }
