@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: GrassJoinHillLeft
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: b8a5ba1d5d49334429d4af4b77e8ba21, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a2ca6dc7d892600418891a6723041545, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
