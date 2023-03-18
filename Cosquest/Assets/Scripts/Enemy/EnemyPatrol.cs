@@ -4,7 +4,7 @@
 
 public class EnemyPatrol : MonoBehaviour
 {
-    [Header ("Patrol Points")]
+    [Header("Patrol Points")]
     [SerializeField] private Transform leftEdge;
     [SerializeField] private Transform rightEdge;
 
@@ -23,16 +23,9 @@ public class EnemyPatrol : MonoBehaviour
     [Header("Enemy Animator")]
     [SerializeField] private Animator anim;
 
-    [Header ("RB")]
-    [SerializeField] private Rigidbody2D enemy_RB;
-
-    [SerializeField] private bool enemyFacingRight;
-    public float runSpeed = 40f;
-
     private void Awake()
     {
         initScale = enemy.localScale;
-        enemy_RB = GetComponent<Rigidbody2D>();
     }
     private void OnDisable()
     {
@@ -62,7 +55,7 @@ public class EnemyPatrol : MonoBehaviour
         anim.SetBool("moving", false);
         idleTimer += Time.deltaTime;
 
-        if(idleTimer > idleDuration)
+        if (idleTimer > idleDuration)
             movingLeft = !movingLeft;
     }
 
@@ -72,30 +65,11 @@ public class EnemyPatrol : MonoBehaviour
         anim.SetBool("moving", true);
 
         //Make enemy face direction
-        enemy.localScale = new Vector3(Mathf.Abs(initScale.x) * _direction * -1,
+        enemy.localScale = new Vector3(Mathf.Abs(initScale.x) * _direction,
             initScale.y, initScale.z);
 
         //Move in that direction
-        enemy_RB.velocity = new Vector3(enemy.position.x + Time.deltaTime * _direction * speed,
+        enemy.position = new Vector3(enemy.position.x + Time.deltaTime * _direction * speed,
             enemy.position.y, enemy.position.z);
     }
-    /*
-    private void Flip()
-    {
-        // Switch the way the player is labelled as facing.
-        enemyFacingRight = !enemyFacingRight;
-
-        // Multiply the player's x local scale by -1.
-        Vector3 theScale = transform.localScale;
-        theScale.x *= -1;
-        transform.localScale = theScale;
-    }
-
-    void OnColliderEnter(Collider other)
-    {
-        if (other.tag==("PatrolPoint")) {
-            Flip();
-        }
-    }
-    */
 }

@@ -17,6 +17,10 @@ public class MeleeEnemy : MonoBehaviour
     [SerializeField] private LayerMask playerLayer;
     private float cooldownTimer = Mathf.Infinity;
 
+    [Header("Player")]
+    [SerializeField] private PlayerController wandererController;
+    [SerializeField] private GameObject wanderer;
+
     //References
     private Animator anim;
     private Health playerHealth;
@@ -54,20 +58,37 @@ public class MeleeEnemy : MonoBehaviour
             0, Vector2.left, 0, playerLayer);
 
         if (hit.collider != null)
-            playerHealth = hit.transform.GetComponent<Health>();
+            wandererController.Respawn();
 
         return hit.collider != null;
     }
+    /*
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(boxCollider.bounds.center + transform.right * range * transform.localScale.x * colliderDistance,
             new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z));
     }
+    */
 
     private void DamagePlayer()
     {
         if (PlayerInSight())
             playerHealth.TakeDamage(damage);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag=="Player")
+        {
+            anim.SetTrigger("meleeAttack");
+           // wandererController.Respawn();
+
+        }
+    }
+
+    private void PlayerRespawn()
+    {
+        wandererController.Respawn();
     }
 }

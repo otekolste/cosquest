@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
 
 	public AudioSource DeathSound;
 
-	private Vector3 RespawnPoint;
+	public Vector3 RespawnPoint;
 	public GameObject FallDetector;
 
 	public bool canMove;
@@ -138,13 +138,18 @@ public class PlayerController : MonoBehaviour
 		if (collision.tag == "FallDetector")
 		{
 			DeathSound.Play();
-			transform.position = RespawnPoint;
+			Respawn();
 		}
 
 		if(collision.tag == "Checkpoint")
         {
 			RespawnPoint = collision.transform.position;
         }
+	}
+
+	public void Respawn()
+    {
+		transform.position = RespawnPoint;
 	}
 
 }
