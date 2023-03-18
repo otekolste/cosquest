@@ -10,6 +10,7 @@ TagManager:
   - Checkpoint
   - jumptag
   - Enemy
+  - Patrol
   layers:
   - Default
   - TransparentFX
