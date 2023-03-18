@@ -51,6 +51,9 @@ TagManager:
   - name: background
     uniqueID: 1770449417
     locked: 0
+  - name: backgroundExtras
+    uniqueID: 3064316057
+    locked: 0
   - name: platforms
     uniqueID: 69668193
     locked: 0

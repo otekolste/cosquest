@@ -26,6 +26,8 @@ public class PlayerController : MonoBehaviour
 
 	public bool canMove;
 
+	private bool iceControls;
+
 	[Header("Events")]
 	[Space]
 
@@ -95,7 +97,15 @@ public class PlayerController : MonoBehaviour
 					}
 				}
 
-				m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
+                if (iceControls)
+                {
+					m_Rigidbody2D.AddForce(targetVelocity);
+				}
+				else {
+
+					m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
+
+				}
 
 				// If the input is moving the player right and the player is facing left...
 				if (move > 0 && !m_FacingRight)
@@ -145,11 +155,17 @@ public class PlayerController : MonoBehaviour
         {
 			RespawnPoint = collision.transform.position;
         }
+
 	}
 
 	public void Respawn()
     {
 		transform.position = RespawnPoint;
 	}
+
+	public void setIceControls(bool ice)
+    {
+		iceControls = ice;
+    }
 
 }
