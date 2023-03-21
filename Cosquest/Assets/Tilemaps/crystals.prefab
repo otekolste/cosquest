@@ -5531,7 +5531,7 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 32, y: -21, z: 0}
+  - first: {x: 33, y: -21, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 286
@@ -5729,7 +5729,7 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 32, y: -20, z: 0}
+  - first: {x: 33, y: -20, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 258

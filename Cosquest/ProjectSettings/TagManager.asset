@@ -8,6 +8,9 @@ TagManager:
   - Platform
   - FallDetector
   - Checkpoint
+  - jumptag
+  - Enemy
+  - Patrol
   layers:
   - Default
   - TransparentFX
@@ -20,8 +23,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - player
+  - Enemy
   - platforms
   - 
   - 
@@ -47,6 +50,9 @@ TagManager:
     locked: 0
   - name: background
     uniqueID: 1770449417
+    locked: 0
+  - name: backgroundExtras
+    uniqueID: 3064316057
     locked: 0
   - name: platforms
     uniqueID: 69668193

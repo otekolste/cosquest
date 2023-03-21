@@ -4,19 +4,18 @@ using UnityEngine;
 
 public class WaypointFollower : MonoBehaviour
 {
-    [SerializeField] private GameObject[] waypoints; 
-    private int currentWaypointIndex = 0;
+    [SerializeField] private GameObject[] waypoints;
+    private int currentWayPointIndex = 0;
     [SerializeField] private float speed = 2f;
-
     // Update is called once per frame
     private void Update()
     {
-        if(Vector2.Distance(waypoints[currentWaypointIndex].transform.position, transform.position)< .1f){
-            currentWaypointIndex++;
-            if(currentWaypointIndex>=waypoints.Length){
-                currentWaypointIndex = 0;
+        if(Vector2.Distance(waypoints[currentWayPointIndex].transform.position, transform.position)<.1f ){
+            currentWayPointIndex +=1;
+            if(currentWayPointIndex>=waypoints.Length){
+                currentWayPointIndex = 0;
             }
         }
-        transform.position = Vector2.MoveTowards(transform.position, waypoints[currentWaypointIndex].transform.position, Time.deltaTime * speed);
+        transform.position = Vector2.MoveTowards(transform.position, waypoints[currentWayPointIndex].transform.position, Time.deltaTime * speed);
     }
 }

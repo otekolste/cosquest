@@ -4,6 +4,13 @@ using UnityEngine;
 
 // code adapted from here: https://github.com/Brackeys/2D-Animation/blob/master/2D%20Animation/Assets/Scripts/PlayerMovement.cs
 
+public class MovementStat
+{
+	public bool jump = false;
+	public bool dash = false;
+	public bool crouch = false;
+}
+
 public class PlayerMovement : MonoBehaviour
 {
 
@@ -13,7 +20,10 @@ public class PlayerMovement : MonoBehaviour
 	public float runSpeed = 40f;
 
 	float horizontalMove = 0f;
-	bool jump = false;
+
+	public MovementStat status = new MovementStat();
+
+	private Timer DashTimer = new Timer();
 
 	[SerializeField] private AudioSource jumpSoundEffect;
 	[SerializeField] private AudioSource deathSoundEffect;
@@ -22,20 +32,33 @@ public class PlayerMovement : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-
-		horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-
-		animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
-
-		if (Input.GetButtonDown("Jump"))
+		if(controller.canMove)
 		{
-			jump = true;
-			jumpSoundEffect.Play();
+			horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
-			animator.SetBool("IsJumping", true);
+			animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
+			if (Input.GetButtonDown("Jump"))
+			{
+				status.jump = true;
+				jumpSoundEffect.Play();
+				CanvasGroup cg = GameObject.FindGameObjectWithTag("jumptag").GetComponent<CanvasGroup>();
+				cg.alpha = 1;
+				animator.SetBool("IsJumping", true);
+			}
+
+			//ToDo: Implement dash sound effect and cg
+			if (Input.GetButtonDown("Dash"))
+			{
+				status.dash = true;
+
+				animator.SetBool("IsDashing", true);
+
+				DashTimer.startTimer(0.05f, stopDash);
+			}
+
+			DashTimer.Update();
 		}
-
-
 
 	}
 
@@ -43,14 +66,20 @@ public class PlayerMovement : MonoBehaviour
 	{
 		animator.SetBool("IsJumping", false);
 		Debug.Log("landed!");
+		CanvasGroup cg = GameObject.FindGameObjectWithTag("jumptag").GetComponent<CanvasGroup>();
+		cg.alpha = 0;
 	}
 
-
+	public void stopDash()
+	{
+		status.dash = false;
+		animator.SetBool("IsDashing", false);
+	}
 
 	void FixedUpdate()
 	{
 		// Move our character
-		controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
-		jump = false;
+		controller.Move(horizontalMove * Time.fixedDeltaTime, status);
+		status.jump = false;
 	}
 }
