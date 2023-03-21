@@ -5,6 +5,8 @@ using UnityEngine.Events;
 
 public class PlayerController : MonoBehaviour
 {
+
+	[Header("Positioning")]
 	[SerializeField] private float m_JumpForce = 400f;                          // Amount of force added when the player jumps.
 	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;  // How much to smooth out the movement
 	[SerializeField] private bool m_AirControl = true;                         // Whether or not a player can steer while jumping;
@@ -32,6 +34,10 @@ public class PlayerController : MonoBehaviour
 	[Space]
 
 	public UnityEvent OnLandEvent;
+
+	[Header("Respawn")]
+	[SerializeField] private float respawnOffset;
+
 
 	[System.Serializable]
 	public class BoolEvent : UnityEvent<bool> { }
@@ -154,13 +160,14 @@ public class PlayerController : MonoBehaviour
 		if(collision.tag == "Checkpoint")
         {
 			RespawnPoint = collision.transform.position;
+			collision.GetComponent<Animator>().SetTrigger("activate");
         }
 
 	}
 
 	public void Respawn()
     {
-		transform.position = RespawnPoint;
+		transform.position = new Vector3(RespawnPoint.x, RespawnPoint.y + respawnOffset, RespawnPoint.z);
 	}
 
 	public void setIceControls(bool ice)
