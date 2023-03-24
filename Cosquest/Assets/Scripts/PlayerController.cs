@@ -158,6 +158,7 @@ public class PlayerController : MonoBehaviour
 	private IEnumerator ResetCanShoot(){
 		yield return new WaitForSeconds(5f);
 		shooting.canShoot = false;
+		
 	}
 
 	private void OnTriggerEnter2D(Collider2D collision)
