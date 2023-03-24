@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
+using System.Collections;
 
 // code adapted from here: https://github.com/Brackeys/2D-Animation/blob/master/2D%20Animation/Assets/Scripts/CharacterController2D.cs
 
@@ -27,6 +28,7 @@ public class PlayerController : MonoBehaviour
 	public GameObject FallDetector;
 
 	public bool canMove;
+	private Shooting shooting;
 
 	private bool iceControls;
 
@@ -42,7 +44,12 @@ public class PlayerController : MonoBehaviour
 	[System.Serializable]
 	public class BoolEvent : UnityEvent<bool> { }
 
-
+	private void Start()
+    {
+        // Get a reference to the Shooting component on the same GameObject
+        shooting = GetComponent<Shooting>();
+		shooting.canShoot = false;
+    }
 
 	private void Awake()
 	{
@@ -148,8 +155,19 @@ public class PlayerController : MonoBehaviour
 		transform.localScale = theScale;
 	}
 
+	private IEnumerator ResetCanShoot(){
+		yield return new WaitForSeconds(5f);
+		shooting.canShoot = false;
+	}
+
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
+		if(collision.tag == "Powerup_Laser"){
+			Debug.Log("Powerup!\n");
+			Destroy(collision.gameObject);
+			shooting.canShoot = true;
+			StartCoroutine(ResetCanShoot());
+		}
 
 		if (collision.tag == "FallDetector")
 		{
