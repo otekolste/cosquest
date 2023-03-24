@@ -48,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
 			}
 
 			//ToDo: Implement dash sound effect and cg
-			if (Input.GetButtonDown("Dash"))
+			else if (Input.GetButtonDown("Dash"))
 			{
 				status.dash = true;
 
