@@ -3,6 +3,7 @@ using System.Collections;
 
 //Adapted from https://github.com/nickbota/Unity-Platformer-Episode-10/blob/main/Assets/Scripts/Health/Health.cs
 
+
 public class Health : MonoBehaviour
 {
     [Header ("Health")]
@@ -19,6 +20,9 @@ public class Health : MonoBehaviour
     [Header("Components")]
     [SerializeField] private Behaviour[] components;
     private bool invulnerable;
+
+    [Header("Player")]
+    [SerializeField] private PlayerController wandererController;
 
     private void Awake()
     {
@@ -41,11 +45,10 @@ public class Health : MonoBehaviour
             if (!dead)
             {
                 anim.SetTrigger("die");
-
+                wandererController.Respawn();
                 //Deactivate all attached component classes
                 foreach (Behaviour component in components)
                     component.enabled = false;
-
                 dead = true;
             }
         }
