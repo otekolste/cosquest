@@ -1,73 +1,49 @@
 fileFormatVersion: 2
-guid: 348f35430df4e42968609bc442791b0f
+guid: 4f2c981ef25467c439d72d8ed94c8c89
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8541584506430558494
-    second: enemy2attack_0
+      213: 4683204630935261793
+    second: dinoRun_0
   - first:
-      213: -3818300881726796560
-    second: enemy2attack_1
+      213: 9039976551528928577
+    second: dinoRun_1
   - first:
-      213: -6909466866021074785
-    second: enemy2attack_2
+      213: 496600619292457242
+    second: dinoRun_2
   - first:
-      213: -5039837765638234424
-    second: enemy2attack_3
+      213: 3180481824382523118
+    second: dinoRun_3
   - first:
-      213: 3694554367814945001
-    second: enemy2attack_4
+      213: -1603125229170945852
+    second: dinoRun_4
   - first:
-      213: -8875874154458966207
-    second: enemy2attack_5
+      213: -3964537015374027068
+    second: dinoRun_5
   - first:
-      213: -8370107007461933226
-    second: enemy2attack_6
+      213: 1987860633121732421
+    second: dinoRun_6
   - first:
-      213: -7884165917822095465
-    second: enemy2attack_7
+      213: 8359500832689670400
+    second: dinoRun_7
   - first:
-      213: -3965402644991610585
-    second: enemy2attack_8
+      213: 2017726344554484168
+    second: dinoRun_8
   - first:
-      213: 5815288684164274528
-    second: enemy2attack_9
+      213: 1675502319766453033
+    second: dinoRun_9
   - first:
-      213: -6075213161996621565
-    second: enemy2attack_10
+      213: -4406458730360230958
+    second: dinoRun_10
   - first:
-      213: -7763411877599523417
-    second: enemy2attack_1
+      213: 6322042581282415328
+    second: dinoRun_11
   - first:
-      213: -8618695229525780257
-    second: enemy2attack_3
+      213: 5937873236539903232
+    second: dinoRun_12
   - first:
-      213: -8394602098103375376
-    second: enemy2attack_4
-  - first:
-      213: 4956064447414381187
-    second: enemy2attack_5
-  - first:
-      213: -6749861757610613796
-    second: enemy2attack_6
-  - first:
-      213: 6468994466027806340
-    second: enemy2attack_8
-  - first:
-      213: -6361369041249867274
-    second: enemy2attack_9
-  - first:
-      213: -7852002721937326086
-    second: enemy2attack_10
-  - first:
-      213: 5820956693351801387
-    second: enemy2attack_0
-  - first:
-      213: 6944373438551855872
-    second: enemy2attack_2
-  - first:
-      213: 252050418765327040
-    second: enemy2attack_7
+      213: -556701053296883816
+    second: dinoRun_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,7 +73,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -130,7 +106,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -142,7 +118,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -153,232 +129,295 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemy2attack_1
+      name: dinoRun_0
       rect:
         serializedVersion: 2
-        x: 1734
-        y: 1546
-        width: 663
-        height: 379
+        x: 53
+        y: 491
+        width: 87
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7adc1a69702d24490800000000000000
-      internalID: -7763411877599523417
+      spriteID: 1625c559cc51ef040800000000000000
+      internalID: 4683204630935261793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2attack_3
+      name: dinoRun_1
       rect:
         serializedVersion: 2
-        x: 203
-        y: 1554
-        width: 657
-        height: 345
+        x: 173
+        y: 499
+        width: 98
+        height: 129
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd813c04a5e346880800000000000000
-      internalID: -8618695229525780257
+      spriteID: 1451ebb17c2747d70800000000000000
+      internalID: 9039976551528928577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2attack_4
+      name: dinoRun_2
       rect:
         serializedVersion: 2
-        x: 968
-        y: 1552
-        width: 661
-        height: 351
+        x: 297
+        y: 509
+        width: 111
+        height: 119
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f9acc74ed1608b80800000000000000
-      internalID: -8394602098103375376
+      spriteID: a197a24d1a744e600800000000000000
+      internalID: 496600619292457242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2attack_5
+      name: dinoRun_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 504
+        width: 113
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee618ec4e57532c20800000000000000
+      internalID: 3180481824382523118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinoRun_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 349
+        width: 108
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c09cc8091e80c9e0800000000000000
+      internalID: -1603125229170945852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinoRun_5
       rect:
         serializedVersion: 2
         x: 176
-        y: 1022
-        width: 664
-        height: 399
+        y: 341
+        width: 87
+        height: 139
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38aa3184b5a77c440800000000000000
-      internalID: 4956064447414381187
+      spriteID: 4c66ebbe6922bf8c0800000000000000
+      internalID: -3964537015374027068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2attack_6
+      name: dinoRun_6
       rect:
         serializedVersion: 2
-        x: 951
-        y: 1018
-        width: 658
-        height: 402
+        x: 307
+        y: 342
+        width: 86
+        height: 138
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd320a66e7ca352a0800000000000000
-      internalID: -6749861757610613796
+      spriteID: 5473434b6bc469b10800000000000000
+      internalID: 1987860633121732421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2attack_8
+      name: dinoRun_7
       rect:
         serializedVersion: 2
-        x: 1726
-        y: 1021
-        width: 655
-        height: 401
+        x: 433
+        y: 344
+        width: 100
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48e1e81513c76c950800000000000000
-      internalID: 6468994466027806340
+      spriteID: 009cc0087b9e20470800000000000000
+      internalID: 8359500832689670400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2attack_9
+      name: dinoRun_8
       rect:
         serializedVersion: 2
-        x: 67
-        y: 503
-        width: 771
-        height: 404
+        x: 41
+        y: 205
+        width: 106
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f9622b9f80e7b7a0800000000000000
-      internalID: -6361369041249867274
+      spriteID: 8c11e158b67600c10800000000000000
+      internalID: 2017726344554484168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2attack_10
+      name: dinoRun_9
       rect:
         serializedVersion: 2
-        x: 1517
-        y: 504
-        width: 868
-        height: 402
+        x: 160
+        y: 212
+        width: 116
+        height: 119
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aff76874025180390800000000000000
-      internalID: -7852002721937326086
+      spriteID: 92bb50e8b74904710800000000000000
+      internalID: 1675502319766453033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2attack_0
+      name: dinoRun_10
       rect:
         serializedVersion: 2
-        x: 295
-        y: 1917
-        width: 5
-        height: 4
+        x: 293
+        y: 199
+        width: 119
+        height: 132
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b22aa28954138c050800000000000000
-      internalID: 5820956693351801387
+      spriteID: 2dba573912d19d2c0800000000000000
+      internalID: -4406458730360230958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2attack_2
+      name: dinoRun_11
       rect:
         serializedVersion: 2
-        x: 269
-        y: 1911
-        width: 6
-        height: 5
+        x: 429
+        y: 191
+        width: 95
+        height: 141
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0039a8879de5f5060800000000000000
-      internalID: 6944373438551855872
+      spriteID: 0e26b386b386cb750800000000000000
+      internalID: 6322042581282415328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2attack_7
+      name: dinoRun_12
       rect:
         serializedVersion: 2
-        x: 1709
-        y: 1167
-        width: 4
-        height: 4
+        x: 41
+        y: 40
+        width: 88
+        height: 143
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0caeefb35867f7300800000000000000
-      internalID: 252050418765327040
+      spriteID: 00d82499f30976250800000000000000
+      internalID: 5937873236539903232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinoRun_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 42
+        width: 93
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897472077533648f0800000000000000
+      internalID: -556701053296883816
       vertices: []
       indices: 
       edges: []
