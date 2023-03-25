@@ -179,7 +179,12 @@ public class PlayerController : MonoBehaviour
 		if(collision.tag == "Checkpoint")
         {
 			RespawnPoint = collision.transform.position;
-			collision.GetComponent<Animator>().SetTrigger("activate");
+			if (collision.GetComponent<UpAnimation>().respawnTriggered == false)
+			{
+				collision.transform.position = new Vector3(collision.transform.position.x, collision.transform.position.y + 1, collision.transform.position.z);
+				collision.GetComponent<UpAnimation>().respawnTriggered = true;
+
+			}
         }
 
 	}

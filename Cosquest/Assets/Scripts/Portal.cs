@@ -22,6 +22,8 @@ public class Portal : MonoBehaviour
 
     [SerializeField] private PlayerController wanderer;
 
+    public bool dialogue;
+
 
 
 
@@ -33,13 +35,16 @@ public class Portal : MonoBehaviour
     public IEnumerator TriggerEndSequence()
     {
 
-      //  StopAllCoroutines();
+        //  StopAllCoroutines();
 
-        FindObjectOfType<DialogueManager>().dialogueSequence(imageHolder, delay, delayBetweenLines, textHolder, nameHolder);
+        if (dialogue)
+        {
+            FindObjectOfType<DialogueManager>().dialogueSequence(imageHolder, delay, delayBetweenLines, textHolder, nameHolder);
 
-        yield return new WaitUntil(DialogueOver);
+            yield return new WaitUntil(DialogueOver);
+        }
 
-        Debug.Log("hi");
+    //    Debug.Log("hi");
         music.Pause();
         victoryNoise.Play();
 
