@@ -4,7 +4,7 @@
 
 public class EnemyPatrol : MonoBehaviour
 {
-    [Header ("Patrol Points")]
+    [Header("Patrol Points")]
     [SerializeField] private Transform leftEdge;
     [SerializeField] private Transform rightEdge;
 
@@ -26,6 +26,7 @@ public class EnemyPatrol : MonoBehaviour
     private void Awake()
     {
         initScale = enemy.localScale;
+        print(initScale);
     }
     private void OnDisable()
     {
@@ -55,7 +56,7 @@ public class EnemyPatrol : MonoBehaviour
         anim.SetBool("moving", false);
         idleTimer += Time.deltaTime;
 
-        if(idleTimer > idleDuration)
+        if (idleTimer > idleDuration)
             movingLeft = !movingLeft;
     }
 
@@ -65,11 +66,12 @@ public class EnemyPatrol : MonoBehaviour
         anim.SetBool("moving", true);
 
         //Make enemy face direction
-        enemy.localScale = new Vector3(Mathf.Abs(initScale.x) * _direction * -1,
+        enemy.localScale = new Vector3(Mathf.Abs(initScale.x) * _direction,
             initScale.y, initScale.z);
 
         //Move in that direction
         enemy.position = new Vector3(enemy.position.x + Time.deltaTime * _direction * speed,
             enemy.position.y, enemy.position.z);
     }
+
 }

@@ -10,6 +10,9 @@ TagManager:
   - Checkpoint
   - jumptag
   - Enemy
+  - Patrol
+  - Powerup_Laser
+  - Powerup_Dash
   layers:
   - Default
   - TransparentFX
@@ -49,6 +52,9 @@ TagManager:
     locked: 0
   - name: background
     uniqueID: 1770449417
+    locked: 0
+  - name: backgroundExtras
+    uniqueID: 3064316057
     locked: 0
   - name: platforms
     uniqueID: 69668193

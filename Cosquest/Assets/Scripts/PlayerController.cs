@@ -1,10 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
+using System.Collections;
 
 // code adapted from here: https://github.com/Brackeys/2D-Animation/blob/master/2D%20Animation/Assets/Scripts/CharacterController2D.cs
 
 public class PlayerController : MonoBehaviour
 {
+
+	[Header("Positioning")]
 	[SerializeField] private float m_JumpForce = 400f;                          // Amount of force added when the player jumps.
 	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;  // How much to smooth out the movement
 	[SerializeField] private bool m_AirControl = true;                         // Whether or not a player can steer while jumping;
@@ -21,20 +24,32 @@ public class PlayerController : MonoBehaviour
 
 	public AudioSource DeathSound;
 
-	private Vector3 RespawnPoint;
+	public Vector3 RespawnPoint;
 	public GameObject FallDetector;
 
 	public bool canMove;
+	private Shooting shooting;
 
+	private bool iceControls;
+	public bool hasDashAbility= false;
 	[Header("Events")]
 	[Space]
 
 	public UnityEvent OnLandEvent;
 
+	[Header("Respawn")]
+	[SerializeField] private float respawnOffset;
+
+
 	[System.Serializable]
 	public class BoolEvent : UnityEvent<bool> { }
 
-
+	private void Start()
+    {
+        // Get a reference to the Shooting component on the same GameObject
+        shooting = GetComponent<Shooting>();
+		shooting.canShoot = false;
+    }
 
 	private void Awake()
 	{
@@ -70,6 +85,12 @@ public class PlayerController : MonoBehaviour
 		FallDetector.transform.position = new Vector2(transform.position.x, FallDetector.transform.position.y);
 	}
 
+	private IEnumerator dashWithDelay()
+    {
+        hasDashAbility = false;
+        yield return new WaitForSeconds(0.5f);
+        hasDashAbility = true;
+    }
 
 	public void Move(float move, MovementStat status)
 	{
@@ -83,19 +104,30 @@ public class PlayerController : MonoBehaviour
 				// Move the character by finding the target velocity
 				Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
 				// And then smoothing it out and applying it to the character
-				if (status.dash && move != 0.0f)
+				if (status.dash && move != 0.0f && hasDashAbility)
 				{
+					
 					if (m_FacingRight)
 					{
 						targetVelocity = new Vector2(50f, 0);
+						StartCoroutine(dashWithDelay());
 					}
 					else
 					{
 						targetVelocity = new Vector2(-50f, 0);
+						StartCoroutine(dashWithDelay());
 					}
 				}
 
-				m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
+                if (iceControls)
+                {
+					m_Rigidbody2D.AddForce(targetVelocity);
+				}
+				else {
+
+					m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
+
+				}
 
 				// If the input is moving the player right and the player is facing left...
 				if (move > 0 && !m_FacingRight)
@@ -132,19 +164,60 @@ public class PlayerController : MonoBehaviour
 		transform.localScale = theScale;
 	}
 
+	private IEnumerator ResetCanShoot(){
+		yield return new WaitForSeconds(5f);
+		shooting.canShoot = false;
+	}
+
+	private IEnumerator ResetCanDash(){
+		yield return new WaitForSeconds(5f);
+		hasDashAbility = false;
+	}
+	
+
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
+		if(collision.tag == "Powerup_Laser"){
+			Debug.Log("Powerup!\n");
+			Destroy(collision.gameObject);
+			shooting.canShoot = true;
+			StartCoroutine(ResetCanShoot());
+		}
+		if(collision.tag == "Powerup_Dash"){
+			Debug.Log("Powerup!\n");
+			Destroy(collision.gameObject);
+			hasDashAbility = true;
+			StartCoroutine(ResetCanDash());
+		}
+		
 
 		if (collision.tag == "FallDetector")
 		{
 			DeathSound.Play();
-			transform.position = RespawnPoint;
+			Respawn();
 		}
 
 		if(collision.tag == "Checkpoint")
         {
 			RespawnPoint = collision.transform.position;
+			if (collision.GetComponent<UpAnimation>().respawnTriggered == false)
+			{
+				collision.transform.position = new Vector3(collision.transform.position.x, collision.transform.position.y + 1, collision.transform.position.z);
+				collision.GetComponent<UpAnimation>().respawnTriggered = true;
+
+			}
         }
+
 	}
+
+	public void Respawn()
+    {
+		transform.position = new Vector3(RespawnPoint.x, RespawnPoint.y + respawnOffset, RespawnPoint.z);
+	}
+
+	public void setIceControls(bool ice)
+    {
+		iceControls = ice;
+    }
 
 }
