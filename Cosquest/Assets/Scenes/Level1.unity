@@ -911,6 +911,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1071080787}
   offset: {x: 0, y: -1.52, z: -0.74}
+  bouncyPlanet: 0
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -3587,7 +3588,7 @@ BoxCollider2D:
   m_Offset: {x: -0.42066193, y: 0.4048425}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.15, y: 0.41}
     oldSize: {x: 2.67, y: 2.45}
     newSize: {x: 2.67, y: 2.45}
     adaptiveTilingThreshold: 0.5
@@ -3682,7 +3683,7 @@ MonoBehaviour:
   attackCooldown: 1
   range: 0.54
   damage: 1
-  colliderDistance: -0.01
+  colliderDistance: -0.08
   boxCollider: {fileID: 1282233076}
   playerLayer:
     serializedVersion: 2
