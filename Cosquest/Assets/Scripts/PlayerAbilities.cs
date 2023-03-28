@@ -11,9 +11,18 @@ public class PlayerAbilities : MonoBehaviour {
             // Enable the particle system
             abilityParticle.playOnAwake = true;
             abilityParticle.Play();
+            var main = abilityParticle.main;
+            main.startColor = Color.green; // Change the particle color to green
             StartCoroutine(StopParticleAfterDelay(5f));
             // Do something else when the ability is collected
             // ...
+        }else if (other.CompareTag("Powerup_Dash")){
+             // Enable the particle system
+            abilityParticle.playOnAwake = true;
+            abilityParticle.Play();
+            var main = abilityParticle.main;
+            main.startColor = Color.blue; // Change the particle color to green
+            StartCoroutine(StopParticleAfterDelay(5f));
         }
     }
 

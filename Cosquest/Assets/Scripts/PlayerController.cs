@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
 	private Shooting shooting;
 
 	private bool iceControls;
-
+	public bool hasDashAbility= false;
 	[Header("Events")]
 	[Space]
 
@@ -85,6 +85,12 @@ public class PlayerController : MonoBehaviour
 		FallDetector.transform.position = new Vector2(transform.position.x, FallDetector.transform.position.y);
 	}
 
+	private IEnumerator dashWithDelay()
+    {
+        hasDashAbility = false;
+        yield return new WaitForSeconds(0.5f);
+        hasDashAbility = true;
+    }
 
 	public void Move(float move, MovementStat status)
 	{
@@ -98,15 +104,18 @@ public class PlayerController : MonoBehaviour
 				// Move the character by finding the target velocity
 				Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
 				// And then smoothing it out and applying it to the character
-				if (status.dash && move != 0.0f)
+				if (status.dash && move != 0.0f && hasDashAbility)
 				{
+					
 					if (m_FacingRight)
 					{
 						targetVelocity = new Vector2(50f, 0);
+						StartCoroutine(dashWithDelay());
 					}
 					else
 					{
 						targetVelocity = new Vector2(-50f, 0);
+						StartCoroutine(dashWithDelay());
 					}
 				}
 
@@ -158,8 +167,13 @@ public class PlayerController : MonoBehaviour
 	private IEnumerator ResetCanShoot(){
 		yield return new WaitForSeconds(5f);
 		shooting.canShoot = false;
-		
 	}
+
+	private IEnumerator ResetCanDash(){
+		yield return new WaitForSeconds(5f);
+		hasDashAbility = false;
+	}
+	
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
@@ -169,6 +183,13 @@ public class PlayerController : MonoBehaviour
 			shooting.canShoot = true;
 			StartCoroutine(ResetCanShoot());
 		}
+		if(collision.tag == "Powerup_Dash"){
+			Debug.Log("Powerup!\n");
+			Destroy(collision.gameObject);
+			hasDashAbility = true;
+			StartCoroutine(ResetCanDash());
+		}
+		
 
 		if (collision.tag == "FallDetector")
 		{
