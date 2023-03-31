@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: 5196b971854c7f941b9d908fc5dee45d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -237813022267528763
+    second: redoneEnemy1sheet_0
+  - first:
+      213: 7827798916374720249
+    second: redoneEnemy1sheet_1
+  - first:
+      213: -8984734966567740245
+    second: redoneEnemy1sheet_2
+  - first:
+      213: 1489227726135953964
+    second: redoneEnemy1sheet_3
+  - first:
+      213: 5344345580060836370
+    second: redoneEnemy1sheet_4
+  - first:
+      213: 3126358678678212053
+    second: redoneEnemy1sheet_5
+  - first:
+      213: 9096760167291367114
+    second: redoneEnemy1sheet_6
+  - first:
+      213: 4209081145049005109
+    second: redoneEnemy1sheet_7
+  - first:
+      213: 2715767481199957536
+    second: redoneEnemy1sheet_8
+  - first:
+      213: -4935530868391249340
+    second: redoneEnemy1sheet_9
+  - first:
+      213: 1557440285332003064
+    second: redoneEnemy1sheet_10
+  - first:
+      213: -7654549252950321733
+    second: redoneEnemy1sheet_11
+  - first:
+      213: -804434743880132406
+    second: redoneEnemy1sheet_12
+  - first:
+      213: 1915541357586148116
+    second: redoneEnemy1sheet_13
+  - first:
+      213: -3068594284174228457
+    second: redoneEnemy1sheet_14
+  - first:
+      213: -65594045666039523
+    second: redoneEnemy1sheet_15
+  - first:
+      213: 2673664157382352112
+    second: redoneEnemy1sheet_16
+  - first:
+      213: -8513830525593693297
+    second: redoneEnemy1sheet_17
+  - first:
+      213: -6172833244251927242
+    second: redoneEnemy1sheet_18
+  - first:
+      213: -8933559249256547005
+    second: redoneEnemy1sheet_19
+  - first:
+      213: 7339102705616275352
+    second: redoneEnemy1sheet_20
+  - first:
+      213: 7368150421035954404
+    second: redoneEnemy1sheet_21
+  - first:
+      213: 1745737759059203234
+    second: redoneEnemy1sheet_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_0
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 4897
+        width: 641
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c928c4f05e13bcf0800000000000000
+      internalID: -237813022267528763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 4894
+        width: 665
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fee3b714ade1ac60800000000000000
+      internalID: 7827798916374720249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 4909
+        width: 670
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacd2bca62fcf4380800000000000000
+      internalID: -8984734966567740245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 4932
+        width: 706
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a0ff50abccaa410800000000000000
+      internalID: 1489227726135953964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 4710
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21284705dfdea2a40800000000000000
+      internalID: 5344345580060836370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_5
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 4068
+        width: 706
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd031377ae036b20800000000000000
+      internalID: 3126358678678212053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 4088
+        width: 705
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace235aec2f2e3e70800000000000000
+      internalID: 9096760167291367114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 4086
+        width: 712
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cb0713009a96a30800000000000000
+      internalID: 4209081145049005109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 4086
+        width: 779
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0261b79a22850b520800000000000000
+      internalID: 2715767481199957536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 4022
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a709323d8718bb0800000000000000
+      internalID: -4935530868391249340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_10
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 3330
+        width: 823
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8d81610b32d9510800000000000000
+      internalID: 1557440285332003064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 3327
+        width: 846
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb51a2e820495c590800000000000000
+      internalID: -7654549252950321733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 3327
+        width: 849
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8da0eccd216d4f0800000000000000
+      internalID: -804434743880132406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_13
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1868
+        width: 641
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bed7b37be559a10800000000000000
+      internalID: 1915541357586148116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1853
+        width: 638
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7144004b1c92a65d0800000000000000
+      internalID: -3068594284174228457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 1871
+        width: 638
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19e1b02096f61ff0800000000000000
+      internalID: -65594045666039523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_16
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1188
+        width: 635
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc187da263ca1520800000000000000
+      internalID: 2673664157382352112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1179
+        width: 638
+        height: 595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f835c14ce3cc8d980800000000000000
+      internalID: -8513830525593693297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 1191
+        width: 635
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d44a29ed0b55aa0800000000000000
+      internalID: -6172833244251927242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1139
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d7820e13f950480800000000000000
+      internalID: -8933559249256547005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_20
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 497
+        width: 642
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897cd5ac60bb9d560800000000000000
+      internalID: 7339102705616275352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 494
+        width: 639
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e03e7115cde04660800000000000000
+      internalID: 7368150421035954404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redoneEnemy1sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2245
+        y: 497
+        width: 645
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4d5b71e3b1a3810800000000000000
+      internalID: 1745737759059203234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
