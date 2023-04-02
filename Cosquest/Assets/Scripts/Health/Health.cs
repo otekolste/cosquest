@@ -45,6 +45,7 @@ public class Health : MonoBehaviour
             if (!dead)
             {
                 anim.SetTrigger("die");
+                Debug.Log("Calling Respawn!\n");
                 wandererController.Respawn();
                 //Deactivate all attached component classes
                 foreach (Behaviour component in components)
