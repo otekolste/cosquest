@@ -21,6 +21,7 @@ public class Portal : MonoBehaviour
     [SerializeField] private AudioSource victoryNoise;
 
     [SerializeField] private PlayerController wanderer;
+    [SerializeField] private Animator playerAnim;
 
     public bool dialogue;
 
@@ -39,6 +40,7 @@ public class Portal : MonoBehaviour
 
         if (dialogue)
         {
+            textHolder.gameObject.SetActive(true);
             FindObjectOfType<DialogueManager>().dialogueSequence(imageHolder, delay, delayBetweenLines, textHolder, nameHolder);
 
             yield return new WaitUntil(DialogueOver);
@@ -50,6 +52,7 @@ public class Portal : MonoBehaviour
 
         endScreen.gameObject.SetActive(true);
         wanderer.canMove = false;
+        playerAnim.SetFloat("Speed", 0);
 
 
         yield return null;
@@ -69,7 +72,7 @@ public class Portal : MonoBehaviour
         //  Debug.Log("trigger");
         if (other.tag == playerTag && hasTriggered == false)
         {
-            textHolder.gameObject.SetActive(true);
+           // textHolder.gameObject.SetActive(true);
 
             hasTriggered = true;
 

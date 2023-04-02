@@ -1,0 +1,800 @@
+fileFormatVersion: 2
+guid: b0d8a64ed2c38624bb7cbeeac5c01442
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3818707802971752622
+    second: enemyEggidleattack_0
+  - first:
+      213: 6103494276306497591
+    second: enemyEggidleattack_1
+  - first:
+      213: 6546604213105575807
+    second: enemyEggidleattack_2
+  - first:
+      213: -6328877469248710251
+    second: enemyEggidleattack_3
+  - first:
+      213: 6071153009894220274
+    second: enemyEggidleattack_4
+  - first:
+      213: -6079997005096352628
+    second: enemyEggidleattack_5
+  - first:
+      213: 8460215932049236970
+    second: enemyEggidleattack_6
+  - first:
+      213: -1021412724907321045
+    second: enemyEggidleattack_7
+  - first:
+      213: 7106835409006724293
+    second: enemyEggidleattack_8
+  - first:
+      213: -6032490143464541312
+    second: enemyEggidleattack_9
+  - first:
+      213: 6289338046676665712
+    second: enemyEggidleattack_10
+  - first:
+      213: 9219677703008655313
+    second: enemyEggidleattack_11
+  - first:
+      213: 9210721459832552545
+    second: enemyEggidleattack_12
+  - first:
+      213: -2986417646242212005
+    second: enemyEggidleattack_13
+  - first:
+      213: -902674925599545667
+    second: enemyEggidleattack_14
+  - first:
+      213: -7438707311692030755
+    second: enemyEggidleattack_15
+  - first:
+      213: -1241808668152632007
+    second: enemyEggidleattack_16
+  - first:
+      213: -8552911023874442922
+    second: enemyEggidleattack_17
+  - first:
+      213: 6515359969165023170
+    second: enemyEggidleattack_18
+  - first:
+      213: 4791726572075533401
+    second: enemyEggidleattack_19
+  - first:
+      213: 8728744224447658832
+    second: enemyEggidleattack_20
+  - first:
+      213: -187268899662216884
+    second: enemyEggidleattack_21
+  - first:
+      213: 7446167014951252313
+    second: enemyEggidleattack_22
+  - first:
+      213: 6503311980027443754
+    second: enemyEggidleattack_23
+  - first:
+      213: 3124030534693074098
+    second: enemyEggidleattack_24
+  - first:
+      213: -6918247030360901679
+    second: enemyEggidleattack_25
+  - first:
+      213: 3229972980531486719
+    second: enemyEggidleattack_26
+  - first:
+      213: -3367256683068237124
+    second: enemyEggidleattack_27
+  - first:
+      213: 7009379798418239327
+    second: enemyEggidleattack_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemyEggidleattack_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 612
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2573bde4c79310bc0800000000000000
+      internalID: -3818707802971752622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 608
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730f0e3e4b7f3b450800000000000000
+      internalID: 6103494276306497591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 613
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77cb3fa8d53ada50800000000000000
+      internalID: 6546604213105575807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 604
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599157a397f4b28a0800000000000000
+      internalID: -6328877469248710251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_4
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 614
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1e9c30f71114450800000000000000
+      internalID: 6071153009894220274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_5
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 609
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c840bc3efe28f9ba0800000000000000
+      internalID: -6079997005096352628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 613
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae325e8e099b86570800000000000000
+      internalID: 8460215932049236970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_7
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 610
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29d5d2d98633d1f0800000000000000
+      internalID: -1021412724907321045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 319
+        width: 191
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4830f962d80a260800000000000000
+      internalID: 7106835409006724293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_9
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 319
+        width: 192
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08330cf0d2a484ca0800000000000000
+      internalID: -6032490143464541312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_10
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 319
+        width: 191
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075038091a7384750800000000000000
+      internalID: 6289338046676665712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 186
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d79b6fd500e2ff70800000000000000
+      internalID: 9219677703008655313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 186
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cf2620e5e03df70800000000000000
+      internalID: 9210721459832552545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_13
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 185
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5756c439fc1e86d0800000000000000
+      internalID: -2986417646242212005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_14
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 184
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6acff00fd0973f0800000000000000
+      internalID: -902674925599545667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_15
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 184
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcde7aac1764c890800000000000000
+      internalID: -7438707311692030755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_16
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 183
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93de2cf789534cee0800000000000000
+      internalID: -1241808668152632007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_17
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 183
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659f0723db4fd4980800000000000000
+      internalID: -8552911023874442922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_18
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 182
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c791e14f553b6a50800000000000000
+      internalID: 6515359969165023170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_19
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 182
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954cc5dfde1af7240800000000000000
+      internalID: 4791726572075533401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_20
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 177
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bf17110aab22970800000000000000
+      internalID: 8728744224447658832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_21
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 176
+        width: 53
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41c72e8defa66df0800000000000000
+      internalID: -187268899662216884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_22
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 175
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9517668d279165760800000000000000
+      internalID: 7446167014951252313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_23
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 168
+        width: 182
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2af3113ac7604a50800000000000000
+      internalID: 6503311980027443754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_24
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 68
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4badf2839ca5b20800000000000000
+      internalID: 3124030534693074098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_25
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 66
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7ffe6faf27dff90800000000000000
+      internalID: -6918247030360901679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_26
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 65
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff50ba005b23dc20800000000000000
+      internalID: 3229972980531486719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_27
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 59
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba582223e91541d0800000000000000
+      internalID: -3367256683068237124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyEggidleattack_28
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 51
+        width: 68
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fa4841ac1564160800000000000000
+      internalID: 7009379798418239327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
