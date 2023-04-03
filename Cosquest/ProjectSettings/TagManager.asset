@@ -11,6 +11,7 @@ TagManager:
   - jumptag
   - Enemy
   - Patrol
+  - boss
   layers:
   - Default
   - TransparentFX
