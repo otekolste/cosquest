@@ -9490,6 +9490,24 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1 &107325380 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 94625970874531510, guid: 201164eae3072024385d1ba35ef1ed17,
+    type: 3}
+  m_PrefabInstance: {fileID: 2020443755}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &107325382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107325380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24b6d8134a0c2ac479740d0f1393f4c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &109781482
 GameObject:
   m_ObjectHideFlags: 0
@@ -12294,6 +12312,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 276642031}
     m_Modifications:
+    - target: {fileID: 94625970874531508, guid: 201164eae3072024385d1ba35ef1ed17,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 94625970874531508, guid: 201164eae3072024385d1ba35ef1ed17,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 94625970874531508, guid: 201164eae3072024385d1ba35ef1ed17,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 94625970874531508, guid: 201164eae3072024385d1ba35ef1ed17,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 107325382}
+    - target: {fileID: 94625970874531508, guid: 201164eae3072024385d1ba35ef1ed17,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenLevel3
+      objectReference: {fileID: 0}
+    - target: {fileID: 94625970874531508, guid: 201164eae3072024385d1ba35ef1ed17,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 94625971687546021, guid: 201164eae3072024385d1ba35ef1ed17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13901,6 +13949,8 @@ MonoBehaviour:
   shootingItem: {fileID: 0}
   shootingPoint: {fileID: 0}
   canShoot: 1
+  shootDelay: 0.5
+  canShootDelay: 1
 --- !u!114 &4907595773832615641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14068,6 +14118,7 @@ MonoBehaviour:
   RespawnPoint: {x: 0, y: 28.7, z: 0}
   FallDetector: {fileID: 7362129454632710295}
   canMove: 0
+  hasDashAbility: 0
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:

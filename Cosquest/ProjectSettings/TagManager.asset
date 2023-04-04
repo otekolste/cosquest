@@ -59,3 +59,6 @@ TagManager:
   - name: platforms
     uniqueID: 69668193
     locked: 0
+  - name: hotPlatforms
+    uniqueID: 4222346095
+    locked: 0

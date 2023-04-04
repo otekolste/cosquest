@@ -131,9 +131,9 @@ GameObject:
   m_Component:
   - component: {fileID: 43805594}
   - component: {fileID: 43805593}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: bouncy
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5193,6 +5193,36 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 26.2
       objectReference: {fileID: 0}
+    - target: {fileID: 2510920750275293091, guid: aa18abe5a114de44ba2711a553814b38,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510920750275293091, guid: aa18abe5a114de44ba2711a553814b38,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510920750275293091, guid: aa18abe5a114de44ba2711a553814b38,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510920750275293091, guid: aa18abe5a114de44ba2711a553814b38,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2072192561}
+    - target: {fileID: 2510920750275293091, guid: aa18abe5a114de44ba2711a553814b38,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenLevel4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510920750275293091, guid: aa18abe5a114de44ba2711a553814b38,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa18abe5a114de44ba2711a553814b38, type: 3}
 --- !u!224 &2072192559 stripped
@@ -5201,3 +5231,21 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 2072192558}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2072192560 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2510920750275293089, guid: aa18abe5a114de44ba2711a553814b38,
+    type: 3}
+  m_PrefabInstance: {fileID: 2072192558}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2072192561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072192560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24b6d8134a0c2ac479740d0f1393f4c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
