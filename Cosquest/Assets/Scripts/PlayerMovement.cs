@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // code adapted from here: https://github.com/Brackeys/2D-Animation/blob/master/2D%20Animation/Assets/Scripts/PlayerMovement.cs
 
@@ -32,6 +33,10 @@ public class PlayerMovement : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+        if (Input.GetButtonDown("Fire3"))
+        {
+			SceneManager.LoadScene("Main_Menu_new");
+		}
 		if(controller.canMove)
 		{
 			horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
