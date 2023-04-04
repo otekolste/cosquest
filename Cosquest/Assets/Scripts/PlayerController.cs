@@ -212,6 +212,7 @@ public class PlayerController : MonoBehaviour
 
 	public void Respawn()
     {
+		Debug.Log("Respawn!\n");
 		transform.position = new Vector3(RespawnPoint.x, RespawnPoint.y + respawnOffset, RespawnPoint.z);
 	}
 

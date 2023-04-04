@@ -74,4 +74,8 @@ public class EnemyPatrol : MonoBehaviour
             enemy.position.y, enemy.position.z);
     }
 
+    public void Die()
+    {
+        Destroy(gameObject);
+    }
 }
