@@ -60,6 +60,11 @@ public class PlayerMovement : MonoBehaviour
 			DashTimer.Update();
 		}
 
+        else
+        {
+			horizontalMove = 0f;
+        }
+
 	}
 
 	public void OnLanding()

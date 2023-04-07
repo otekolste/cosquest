@@ -13,20 +13,20 @@ Material:
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 1000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _HorizonLineContribution: 0.75
+    - _HorizonLineContribution: 0.84
     - _HorizonLineExponent: 5.24
     - _SkyGradientExponent: 8.32
     - _SunDiscContribution: 1
     - _SunDiscExponent: 20000
     - _SunDiscMultiplier: 5
-    - _SunHaloContribution: 0.32
+    - _SunHaloContribution: 0.5
     - _SunHaloExponent: 100
     - _Title: 0
     - __dirty: 0
