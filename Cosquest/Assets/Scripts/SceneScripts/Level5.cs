@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Level2 : MonoBehaviour
+public class Level5 : MonoBehaviour
 {
-
 
     [Header("Dialogue stuff")]
     [SerializeField] private Text textHolder;
@@ -24,16 +23,15 @@ public class Level2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player.setIceControls(true);
 
-        StartCoroutine(IceLevelStart());
+        StartCoroutine(Level5Start());
 
     }
 
 
-
-    public IEnumerator IceLevelStart()
+    public IEnumerator Level5Start()
     {
+
         dm.dialogueSequence(imageHolder, delay, delayBetweenLines, textHolder, nameHolder);
 
         yield return new WaitUntil(DialogueOver);
