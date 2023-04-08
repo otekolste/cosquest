@@ -986,6 +986,7 @@ MonoBehaviour:
   numberOfFlashes: 0
   components: []
   wandererController: {fileID: 648568363}
+  EnemyController: {fileID: 0}
 --- !u!114 &648568363 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8059356800978774603, guid: b2b0d54d3ba14724fa2d526309d61b21,
@@ -5814,12 +5815,12 @@ PrefabInstance:
     - target: {fileID: 8059652117273315112, guid: 8f064d4ef46da2544912dffe5dd1ad4d,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8059652117273315112, guid: 8f064d4ef46da2544912dffe5dd1ad4d,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 16
+      value: -44
       objectReference: {fileID: 0}
     - target: {fileID: 8059652117273315112, guid: 8f064d4ef46da2544912dffe5dd1ad4d,
         type: 3}

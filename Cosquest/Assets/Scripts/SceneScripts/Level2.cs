@@ -34,6 +34,7 @@ public class Level2 : MonoBehaviour
 
     public IEnumerator IceLevelStart()
     {
+        dino.SetTrigger("appear");
 
         dm.dialogueSequence(imageHolder, delay, delayBetweenLines, textHolder, nameHolder);
 
@@ -46,6 +47,8 @@ public class Level2 : MonoBehaviour
         dm.dialogueSequence(imageHolder, delay, delayBetweenLines, textHolder2, nameHolder);
 
         yield return new WaitUntil(DialogueOver);
+
+        dino.SetTrigger("disappear");
     }
 
     bool DialogueOver()

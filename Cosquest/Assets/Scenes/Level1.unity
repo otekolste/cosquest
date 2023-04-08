@@ -300,6 +300,7 @@ GameObject:
   - component: {fileID: 69640984}
   - component: {fileID: 69640983}
   - component: {fileID: 69640982}
+  - component: {fileID: 69640986}
   m_Layer: 13
   m_Name: Checkpoint2
   m_TagString: Checkpoint
@@ -416,6 +417,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &69640986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69640981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a099bdc6caf1e142b7f9c85fb6e863c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnTriggered: 0
 --- !u!1 &73789666
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,6 +753,7 @@ GameObject:
   - component: {fileID: 263247953}
   - component: {fileID: 263247952}
   - component: {fileID: 263247951}
+  - component: {fileID: 263247954}
   m_Layer: 5
   m_Name: nextLevelButton
   m_TagString: Untagged
@@ -808,7 +823,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 263247952}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 263247954}
+        m_MethodName: OpenLevel2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &263247952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -846,6 +872,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 263247949}
   m_CullTransparentMesh: 0
+--- !u!114 &263247954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263247949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24b6d8134a0c2ac479740d0f1393f4c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &285633196
 GameObject:
   m_ObjectHideFlags: 0
@@ -1315,6 +1353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1071080787}
   offset: {x: 0, y: -1.52, z: -0.74}
+  bouncyPlanet: 0
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1615,6 +1654,7 @@ GameObject:
   - component: {fileID: 571015804}
   - component: {fileID: 571015806}
   - component: {fileID: 571015805}
+  - component: {fileID: 571015807}
   m_Layer: 13
   m_Name: Checkpoint1
   m_TagString: Checkpoint
@@ -1731,6 +1771,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &571015807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571015802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a099bdc6caf1e142b7f9c85fb6e863c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnTriggered: 0
 --- !u!1 &578883850
 GameObject:
   m_ObjectHideFlags: 0
@@ -3001,6 +3054,7 @@ GameObject:
   - component: {fileID: 689665256}
   - component: {fileID: 689665255}
   - component: {fileID: 689665254}
+  - component: {fileID: 689665258}
   m_Layer: 13
   m_Name: Checkpoint3
   m_TagString: Checkpoint
@@ -3117,6 +3171,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &689665258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689665253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a099bdc6caf1e142b7f9c85fb6e863c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnTriggered: 0
 --- !u!1 &824303090
 GameObject:
   m_ObjectHideFlags: 0
@@ -3656,6 +3723,7 @@ MonoBehaviour:
   RespawnPoint: {x: 0, y: 0, z: 0}
   FallDetector: {fileID: 1593551531}
   canMove: 0
+  hasDashAbility: 0
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:
@@ -3842,6 +3910,7 @@ MonoBehaviour:
   numberOfFlashes: 0
   components: []
   wandererController: {fileID: 1071080784}
+  EnemyController: {fileID: 0}
 --- !u!1 &1115970352
 GameObject:
   m_ObjectHideFlags: 0
@@ -4814,6 +4883,8 @@ MonoBehaviour:
   music: {fileID: 1520003209}
   victoryNoise: {fileID: 1470085553}
   wanderer: {fileID: 1071080784}
+  playerAnim: {fileID: 1071080789}
+  dialogue: 1
   hasTriggered: 0
 --- !u!1 &1422488995
 GameObject:
