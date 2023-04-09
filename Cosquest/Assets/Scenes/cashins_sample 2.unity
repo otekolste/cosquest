@@ -585,7 +585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1071080787}
-  offset: {x: 0, y: -1.18, z: -0.74}
+  offset: {x: 0, y: -2.2967, z: -0.74}
   bouncyPlanet: 0
 --- !u!20 &519420031
 Camera:
@@ -614,7 +614,7 @@ Camera:
   far clip plane: 1000
   field of view: 165
   orthographic: 1
-  orthographic size: 9.01
+  orthographic size: 8.19
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
