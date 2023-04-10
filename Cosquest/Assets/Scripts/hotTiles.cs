@@ -6,12 +6,14 @@ public class hotTiles : MonoBehaviour
 {
     [SerializeField] private Health playerHealth;
     public int damage;
+    [SerializeField] private Animator playerAnim;
 
 
     private void DamagePlayer()
     {
 
         playerHealth.TakeDamage(damage);
+        playerAnim.SetTrigger("Hurt");
         Debug.Log("Applied Damage!");
     }
 
