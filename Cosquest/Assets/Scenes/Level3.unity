@@ -4574,7 +4574,7 @@ PrefabInstance:
         type: 3}
       propertyPath: textHolder
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 527832982}
     - target: {fileID: 3873982641283881782, guid: a53eb73b99c32d542a9a4051f4a829fd,
         type: 3}
       propertyPath: nameHolder
