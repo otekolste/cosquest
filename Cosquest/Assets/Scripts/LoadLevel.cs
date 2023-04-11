@@ -18,20 +18,25 @@ public class LoadLevel : MonoBehaviour
 
     public void OpenLevel2()
     {
-        SceneManager.LoadScene("Level2");
+        if(PlayerPrefs.GetInt("levelscompleted") > 1)
+            SceneManager.LoadScene("Level2");
     }
 
     public void OpenLevel3()
     {
-        SceneManager.LoadScene("Level3");
+        if (PlayerPrefs.GetInt("levelscompleted") > 2)
+            SceneManager.LoadScene("Level3");
     }
      public void OpenLevel4()
     {
-        SceneManager.LoadScene("Level4");
+        if (PlayerPrefs.GetInt("levelscompleted") > 3)
+
+            SceneManager.LoadScene("Level4");
     }
     public void OpenLevel5()
     {
-        SceneManager.LoadScene("Level5");
+        if (PlayerPrefs.GetInt("levelscompleted") > 4)
+            SceneManager.LoadScene("Level5");
     }
 
 }

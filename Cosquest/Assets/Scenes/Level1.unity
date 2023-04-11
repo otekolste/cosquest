@@ -4195,6 +4195,7 @@ GameObject:
   - component: {fileID: 1413156123}
   - component: {fileID: 1413156125}
   - component: {fileID: 1413156126}
+  - component: {fileID: 1413156127}
   m_Layer: 11
   m_Name: Portal
   m_TagString: Untagged
@@ -4320,6 +4321,19 @@ MonoBehaviour:
   dialogue: 1
   nextSceneLoad: 0
   hasTriggered: 0
+--- !u!114 &1413156127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413156122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd686a2ce20f736489dc871fc4f8ddf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelscompleted: 0
 --- !u!1 &1442149794
 GameObject:
   m_ObjectHideFlags: 0
@@ -4430,6 +4444,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1470085554}
   - component: {fileID: 1470085553}
+  - component: {fileID: 1470085555}
   m_Layer: 11
   m_Name: victoryNoise
   m_TagString: Untagged
@@ -4547,6 +4562,19 @@ Transform:
   m_Father: {fileID: 1413156124}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1470085555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470085552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd686a2ce20f736489dc871fc4f8ddf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelscompleted: 0
 --- !u!1 &1485912579
 GameObject:
   m_ObjectHideFlags: 0

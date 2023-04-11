@@ -13699,6 +13699,7 @@ GameObject:
   - component: {fileID: 7306859827337634367}
   - component: {fileID: 7306859827337634366}
   - component: {fileID: 7306859827337634364}
+  - component: {fileID: 7306859827337634338}
   m_Layer: 5
   m_Name: jumptext
   m_TagString: jumptag
@@ -13725,6 +13726,19 @@ RectTransform:
   m_AnchoredPosition: {x: 80, y: 15}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7306859827337634338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7306859827337634336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd686a2ce20f736489dc871fc4f8ddf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelscompleted: 1
 --- !u!225 &7306859827337634364
 CanvasGroup:
   m_ObjectHideFlags: 0
