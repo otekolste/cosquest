@@ -2771,9 +2771,7 @@ MonoBehaviour:
   delayBetweenLines: 0
   imageHolder: {fileID: 3413361768574571892}
   dm: {fileID: 49472304}
-  textHolder2: {fileID: 357835288}
   player: {fileID: 1071080784}
-  dino: {fileID: 2137047951}
 --- !u!4 &1321512529
 Transform:
   m_ObjectHideFlags: 0
@@ -2786,7 +2784,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1329993900
 GameObject:
@@ -2838,10 +2836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input:
   - Assuming nothing else happens, I only have a couple more planets to get through...
-  - ...
-  - ...You're lurking around here, aren't you?
-  - How many times do I have to tell you to leave me alone?
-  - The planet is at stake.
+  - ...I hope.
   characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
   sound: {fileID: 3413361768901233209}
   name: Wanderer
@@ -3210,75 +3205,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1401301615
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 577250640545069499, guid: f3afb58136c37fe419ac38c33424cf76,
-        type: 3}
-      propertyPath: m_Name
-      value: Dino
-      objectReference: {fileID: 0}
-    - target: {fileID: 577250640545069502, guid: f3afb58136c37fe419ac38c33424cf76,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -64.76
-      objectReference: {fileID: 0}
-    - target: {fileID: 577250640545069502, guid: f3afb58136c37fe419ac38c33424cf76,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 577250640545069502, guid: f3afb58136c37fe419ac38c33424cf76,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 577250640545069502, guid: f3afb58136c37fe419ac38c33424cf76,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 577250640545069502, guid: f3afb58136c37fe419ac38c33424cf76,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 577250640545069502, guid: f3afb58136c37fe419ac38c33424cf76,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 577250640545069502, guid: f3afb58136c37fe419ac38c33424cf76,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 577250640545069502, guid: f3afb58136c37fe419ac38c33424cf76,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 577250640545069502, guid: f3afb58136c37fe419ac38c33424cf76,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 577250640545069502, guid: f3afb58136c37fe419ac38c33424cf76,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 577250640545069502, guid: f3afb58136c37fe419ac38c33424cf76,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f3afb58136c37fe419ac38c33424cf76, type: 3}
 --- !u!1 &1520003208
 GameObject:
   m_ObjectHideFlags: 0
@@ -23084,12 +23010,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &2137047951 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 577250640545069496, guid: f3afb58136c37fe419ac38c33424cf76,
-    type: 3}
-  m_PrefabInstance: {fileID: 1401301615}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3413361768155269842
 GameObject:
   m_ObjectHideFlags: 0
