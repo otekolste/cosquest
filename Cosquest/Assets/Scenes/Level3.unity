@@ -530,6 +530,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 317105473}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &317105477 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2796625266623529249, guid: 546e54c79a4c98e4ca126a7429de41c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 317105473}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &407970378
 GameObject:
   m_ObjectHideFlags: 0
@@ -4576,7 +4582,7 @@ PrefabInstance:
         type: 3}
       propertyPath: music
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 317105477}
     - target: {fileID: 3873982641283881782, guid: a53eb73b99c32d542a9a4051f4a829fd,
         type: 3}
       propertyPath: wanderer
