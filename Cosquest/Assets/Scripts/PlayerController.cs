@@ -32,6 +32,8 @@ public class PlayerController : MonoBehaviour
 
 	private bool iceControls;
 	public bool hasDashAbility= false;
+
+	private Health healthScript; // Reference to the Health script
 	[Header("Events")]
 	[Space]
 
@@ -49,6 +51,7 @@ public class PlayerController : MonoBehaviour
         // Get a reference to the Shooting component on the same GameObject
         shooting = GetComponent<Shooting>();
 		shooting.canShoot = false;
+		// healthScript = GetComponent<Health>();
     }
 
 	private void Awake()
@@ -59,6 +62,7 @@ public class PlayerController : MonoBehaviour
 			OnLandEvent = new UnityEvent();
 
 		RespawnPoint = transform.position;
+		healthScript = GetComponent<Health>();
 		canMove = true;
 	}
 
@@ -193,8 +197,7 @@ public class PlayerController : MonoBehaviour
 
 		if (collision.tag == "FallDetector")
 		{
-			DeathSound.Play();
-			Respawn();
+			healthScript.TakeDamage(999);
 		}
 
 		if(collision.tag == "Checkpoint")
@@ -212,6 +215,7 @@ public class PlayerController : MonoBehaviour
 
 	public void Respawn()
     {
+		Debug.Log("Respawn!\n");
 		transform.position = new Vector3(RespawnPoint.x, RespawnPoint.y + respawnOffset, RespawnPoint.z);
 	}
 

@@ -21,8 +21,9 @@ public class Health : MonoBehaviour
     [SerializeField] private Behaviour[] components;
     private bool invulnerable;
 
-    [Header("Player")]
+    [Header("Controller")]
     [SerializeField] private PlayerController wandererController;
+    [SerializeField] private EnemyPatrol EnemyController;
 
     private void Awake()
     {
@@ -46,11 +47,19 @@ public class Health : MonoBehaviour
             {
                 anim.SetTrigger("die");
                 Debug.Log("Calling Respawn!\n");
-                wandererController.Respawn();
+                if(wandererController)
+                {
+                    wandererController.Respawn();
+                    Awake();
+                }
+                else
+                {
+                    EnemyController.Die();
+                }
                 //Deactivate all attached component classes
-                foreach (Behaviour component in components)
-                    component.enabled = false;
-                dead = true;
+                //foreach (Behaviour component in components)
+                //    component.enabled = false;
+                //dead = true;
             }
         }
     }

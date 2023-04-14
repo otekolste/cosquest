@@ -19,7 +19,7 @@ public class MeleeEnemy : MonoBehaviour
 
     [Header("Player")]
     [SerializeField] private PlayerController wandererController;
-    [SerializeField] private GameObject wanderer;
+    [SerializeField] private Animator wandererAnim;
 
     //References
     private Animator anim;
@@ -75,9 +75,11 @@ public class MeleeEnemy : MonoBehaviour
 
     private void DamagePlayer()
     {
-        if (PlayerInSight())
+        if (PlayerInSight()) { 
             playerHealth.TakeDamage(damage);
+            wandererAnim.SetTrigger("Hurt");
             Debug.Log("Applied Damage!");
+        }
     }
     /*
     private void OnTriggerEnter2D(Collider2D other)

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Portal : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class Portal : MonoBehaviour
     [SerializeField] private Animator playerAnim;
 
     public bool dialogue;
+    public int nextSceneLoad;
 
 
 
@@ -31,6 +33,11 @@ public class Portal : MonoBehaviour
 
     public bool hasTriggered = false;
     // Start is called before the first frame update
+    void Start()
+    {
+        nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
+
+    }
 
 
     public IEnumerator TriggerEndSequence()
@@ -77,8 +84,13 @@ public class Portal : MonoBehaviour
             hasTriggered = true;
 
             StartCoroutine(TriggerEndSequence());
-            
-            
+
+            PlayerPrefs.SetInt("levelAt", nextSceneLoad);
+
+
+      
+
+
         }
     }
 }

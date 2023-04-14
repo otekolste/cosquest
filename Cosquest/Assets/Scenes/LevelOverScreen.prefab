@@ -155,6 +155,7 @@ GameObject:
   - component: {fileID: 94625970874531498}
   - component: {fileID: 94625970874531499}
   - component: {fileID: 94625970874531508}
+  - component: {fileID: 2008767441}
   m_Layer: 5
   m_Name: nextLevelButton
   m_TagString: Untagged
@@ -261,7 +262,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 94625970874531499}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2008767441}
+        m_MethodName: loadNextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2008767441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94625970874531510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7212e6667adb639469f3dcbc83988e74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneLoad: 0
 --- !u!1 &94625971379276270
 GameObject:
   m_ObjectHideFlags: 0
