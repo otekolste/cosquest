@@ -10,12 +10,12 @@ public class LevelLock : MonoBehaviour
     void Start()
     {
       
-        int levelAt = PlayerPrefs.GetInt("levelAt", 2);
+        int levelAt = PlayerPrefs.GetInt("levelAt", 3);
         Debug.Log(levelAt);
 
         for(int i = 0; i < lvlButtons.Length; i++)
         {
-            if (i +2> levelAt)
+            if (i +3> levelAt)
                 lvlButtons[i].interactable = false;
         }
         
