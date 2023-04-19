@@ -1,0 +1,1148 @@
+fileFormatVersion: 2
+guid: ce1a5acce7fd364499d96822bc07d8aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1413462286510084671
+    second: DinoEverything__0
+  - first:
+      213: -5578552900117463517
+    second: DinoEverything__1
+  - first:
+      213: 3119408265055667979
+    second: DinoEverything__2
+  - first:
+      213: -3014371240059778723
+    second: DinoEverything__3
+  - first:
+      213: -1408945594886688970
+    second: DinoEverything__4
+  - first:
+      213: -1432302874676481268
+    second: DinoEverything__5
+  - first:
+      213: 5966963583331338227
+    second: DinoEverything__6
+  - first:
+      213: -1596731338583519905
+    second: DinoEverything__7
+  - first:
+      213: -6479774043672747501
+    second: DinoEverything__8
+  - first:
+      213: 5232067027095401257
+    second: DinoEverything__9
+  - first:
+      213: 6632355038461162412
+    second: DinoEverything__10
+  - first:
+      213: 1463278020084257921
+    second: DinoEverything__11
+  - first:
+      213: 2003148491992567230
+    second: DinoEverything__12
+  - first:
+      213: 4351715359267006599
+    second: DinoEverything__13
+  - first:
+      213: -3035819724815468813
+    second: DinoEverything__14
+  - first:
+      213: -3949890350903827465
+    second: DinoEverything__15
+  - first:
+      213: 4234198598507429348
+    second: DinoEverything__16
+  - first:
+      213: 320526399009819872
+    second: DinoEverything__17
+  - first:
+      213: 4928854047548895429
+    second: DinoEverything__18
+  - first:
+      213: 2558092255438848696
+    second: DinoEverything__19
+  - first:
+      213: 8721726245901759658
+    second: DinoEverything__20
+  - first:
+      213: -4880460231974177872
+    second: DinoEverything__21
+  - first:
+      213: 7549711538054601290
+    second: DinoEverything__22
+  - first:
+      213: 8449555975900543273
+    second: DinoEverything__23
+  - first:
+      213: -2552748686385461308
+    second: DinoEverything__24
+  - first:
+      213: 6074218567962652100
+    second: DinoEverything__25
+  - first:
+      213: 7679909300312263952
+    second: DinoEverything__26
+  - first:
+      213: 3756290251096907283
+    second: DinoEverything__27
+  - first:
+      213: -7600123102583697678
+    second: DinoEverything__28
+  - first:
+      213: 4283016222147650034
+    second: DinoEverything__29
+  - first:
+      213: -2267071174703215645
+    second: DinoEverything__30
+  - first:
+      213: -3513170704488258000
+    second: DinoEverything__31
+  - first:
+      213: 1599094099931061150
+    second: DinoEverything__32
+  - first:
+      213: 6389092065785076320
+    second: DinoEverything__33
+  - first:
+      213: 6549966788300854520
+    second: DinoEverything__34
+  - first:
+      213: 217179678538060911
+    second: DinoEverything__35
+  - first:
+      213: 3899668292773231564
+    second: DinoEverything__36
+  - first:
+      213: -1437763139176219241
+    second: DinoEverything__37
+  - first:
+      213: 450028463725913483
+    second: DinoEverything__38
+  - first:
+      213: -9052659018608170373
+    second: DinoEverything__39
+  - first:
+      213: -2720143538251187271
+    second: DinoEverything__40
+  - first:
+      213: 5877613722652612174
+    second: DinoEverything__41
+  - first:
+      213: 6305749044166112405
+    second: DinoEverything__42
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DinoEverything__0
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 13982
+        width: 504
+        height: 784
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3258d2f570ad9310800000000000000
+      internalID: 1413462286510084671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__1
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 14027
+        width: 567
+        height: 741
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ef5cb91bff492b0800000000000000
+      internalID: -5578552900117463517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__2
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 14079
+        width: 644
+        height: 689
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b078f0c2a4d5a4b20800000000000000
+      internalID: 3119408265055667979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__3
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 14056
+        width: 653
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d594517f35dca26d0800000000000000
+      internalID: -3014371240059778723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__4
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 13174
+        width: 623
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f6de4427b627ce0800000000000000
+      internalID: -1408945594886688970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__5
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 13127
+        width: 511
+        height: 802
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c033328cf107f1ce0800000000000000
+      internalID: -1432302874676481268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__6
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 13137
+        width: 503
+        height: 793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f70824c3c9eec250800000000000000
+      internalID: 5966963583331338227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__7
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 13145
+        width: 585
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dcef1be4547d9e0800000000000000
+      internalID: -1596731338583519905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__8
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 12359
+        width: 615
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312e61ea6d73316a0800000000000000
+      internalID: -6479774043672747501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__9
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 12396
+        width: 667
+        height: 689
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9233e0f8d390c9840800000000000000
+      internalID: 5232067027095401257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__10
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 12322
+        width: 689
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3ffbb84cbda0c50800000000000000
+      internalID: 6632355038461162412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__11
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 12271
+        width: 547
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18452c24b9b9e4410800000000000000
+      internalID: 1463278020084257921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__12
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 11418
+        width: 518
+        height: 822
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd8399b0fc9ccb10800000000000000
+      internalID: 2003148491992567230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__13
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 11432
+        width: 540
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788a8b81016646c30800000000000000
+      internalID: 4351715359267006599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__14
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 10374
+        width: 311
+        height: 851
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6ff347b0a9ed5d0800000000000000
+      internalID: -3035819724815468813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__15
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 10373
+        width: 310
+        height: 851
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f362ac37ab2f29c0800000000000000
+      internalID: -3949890350903827465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__16
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 10373
+        width: 304
+        height: 852
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edfd7c0135e2ca30800000000000000
+      internalID: 4234198598507429348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__17
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 10373
+        width: 316
+        height: 852
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec8d1acf0db27400800000000000000
+      internalID: 320526399009819872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__18
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 9100
+        width: 511
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0f5ed54aec66440800000000000000
+      internalID: 4928854047548895429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__19
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 9105
+        width: 530
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b24c1c5a5b208320800000000000000
+      internalID: 2558092255438848696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__20
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 9113
+        width: 556
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4fc2b9fcbc90970800000000000000
+      internalID: 8721726245901759658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__21
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 8201
+        width: 571
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b332ccd64f154cb0800000000000000
+      internalID: -4880460231974177872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__22
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 8247
+        width: 570
+        height: 799
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a996ec4a6f5c860800000000000000
+      internalID: 7549711538054601290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__23
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 8276
+        width: 556
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929b455746ad24570800000000000000
+      internalID: 8449555975900543273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__24
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 7467
+        width: 615
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c746234890d29cd0800000000000000
+      internalID: -2552748686385461308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__25
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 7489
+        width: 675
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdee7fda95fb4450800000000000000
+      internalID: 6074218567962652100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__26
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 7623
+        width: 867
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01dc45891d4849a60800000000000000
+      internalID: 7679909300312263952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__27
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 6342
+        width: 711
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ed4e9e416012430800000000000000
+      internalID: 3756290251096907283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__28
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 6348
+        width: 705
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe424d2e40f68690800000000000000
+      internalID: -7600123102583697678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__29
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 6341
+        width: 697
+        height: 822
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1a858cf84507b30800000000000000
+      internalID: 4283016222147650034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__30
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 4836
+        width: 571
+        height: 889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb894f27ceb980e0800000000000000
+      internalID: -2267071174703215645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__31
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 4836
+        width: 570
+        height: 889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0362bab9bd5be3fc0800000000000000
+      internalID: -3513170704488258000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__32
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 4851
+        width: 646
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b50dc8c9f113610800000000000000
+      internalID: 1599094099931061150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__33
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 3776
+        width: 690
+        height: 741
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ad26a026d9aa850800000000000000
+      internalID: 6389092065785076320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__34
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 3821
+        width: 756
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4574b371826ea50800000000000000
+      internalID: 6549966788300854520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__35
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 3947
+        width: 793
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64d1b754c3930300800000000000000
+      internalID: 217179678538060911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__36
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 3319
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb3a94a6a76e1630800000000000000
+      internalID: 3899668292773231564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__37
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 2657
+        width: 756
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d3042ea0a0c0ce0800000000000000
+      internalID: -1437763139176219241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__38
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 2650
+        width: 757
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85a23fd082de3600800000000000000
+      internalID: 450028463725913483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__39
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 426
+        width: 600
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7aaf1be59e7e5280800000000000000
+      internalID: -9052659018608170373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__40
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1212
+        width: 608
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbb6782ddb104ad0800000000000000
+      internalID: -2720143538251187271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__41
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1219
+        width: 601
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e469ba13a8a719150800000000000000
+      internalID: 5877613722652612174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoEverything__42
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1219
+        width: 601
+        height: 823
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594b74ca855828750800000000000000
+      internalID: 6305749044166112405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
