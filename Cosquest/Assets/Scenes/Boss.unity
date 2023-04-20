@@ -205,6 +205,52 @@ MonoBehaviour:
   characterSprite: {fileID: 21300000, guid: 8901a79ef817b2649b877d6b3bb5370f, type: 3}
   sound: {fileID: 706882384}
   name: '?'
+--- !u!1 &260727395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 260727397}
+  - component: {fileID: 260727396}
+  m_Layer: 0
+  m_Name: dialoguemanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &260727396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260727395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a03ffc59957732b4f9b32b2e168e425a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 706882387}
+  dialogueText: {fileID: 706882386}
+  animator: {fileID: 706882388}
+--- !u!4 &260727397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260727395}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.274162, y: 7.6465816, z: -39.57675}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &289492629
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,6 +576,76 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 408499947}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &484087111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 484087114}
+  - component: {fileID: 484087113}
+  - component: {fileID: 484087112}
+  m_Layer: 0
+  m_Name: BossLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &484087112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484087111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 776d6efd09226564cbe5deeb71469251, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &484087113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484087111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e61ee927b0f8da4482a0be7adfe1133, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dia:
+    name: Wanderer/Dino
+    sentences:
+    - I know why they wear that dino suit. They're mocking me. They're mocking us
+      in the skin of the past that has become the future.
+    - 'They''re me. I should have realized from minute one. '
+    - What am I even doing here. I know this rock is going to leech its poison into
+      the rivers. It'll wreak the sky and scar the earth.
+    - It's just a means of dying in a horrible blaze of fire and not perishing on
+      a frigid godless block of ice.
+    - 'Those aren''t the only two options. The third path is hard but it''s necessary.
+      I''m going to tell them that the rock was destroyed. '
+    - oh- here comes the dino. They look upset. I just need to survive a minute so
+      that I can explain the situation to him.
+--- !u!4 &484087114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484087111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.274162, y: 7.6465816, z: -39.57675}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &487975752
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,7 +952,7 @@ Transform:
   m_Children:
   - {fileID: 713891900}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &706882382
 PrefabInstance:
@@ -849,6 +965,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TextBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496442114254083676, guid: cdea7623785045243bf0b874ad7b5829,
+        type: 3}
+      propertyPath: m_TagString
+      value: diabox
       objectReference: {fileID: 0}
     - target: {fileID: 4496442114254083679, guid: cdea7623785045243bf0b874ad7b5829,
         type: 3}
@@ -972,6 +1093,36 @@ AudioSource:
 --- !u!224 &706882385 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4496442115550948253, guid: cdea7623785045243bf0b874ad7b5829,
+    type: 3}
+  m_PrefabInstance: {fileID: 706882382}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &706882386 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4496442115550948252, guid: cdea7623785045243bf0b874ad7b5829,
+    type: 3}
+  m_PrefabInstance: {fileID: 706882382}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &706882387 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4496442114777200961, guid: cdea7623785045243bf0b874ad7b5829,
+    type: 3}
+  m_PrefabInstance: {fileID: 706882382}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &706882388 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4496442114254083667, guid: cdea7623785045243bf0b874ad7b5829,
     type: 3}
   m_PrefabInstance: {fileID: 706882382}
   m_PrefabAsset: {fileID: 0}
@@ -15612,6 +15763,65 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &939410765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 939410767}
+  - component: {fileID: 939410766}
+  m_Layer: 0
+  m_Name: wrapup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &939410766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939410765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e61ee927b0f8da4482a0be7adfe1133, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dia:
+    name: wanderer/dino
+    sentences:
+    - '*The two figures look at each other as the wanderer radios Earth*'
+    - Hi hello hey uh so bad news. The rock literally crumbled in my hands. I'm pretty
+      sure that I have radiation poisoning. I need to get back home asap.
+    - '*The wanderer hesitates a second. They look at the rock again and actually
+      lets go of it, sending it into the vast void*'
+    - This was never going to work.
+    - '*They turn back to their radio*'
+    - 'Time to start putting in some legislation about private jets. Solving the
+      energy crisis isn''t just about bigger and better and more and more energy. '
+    - That's not sustanability. It's frantically finding every possible justification
+      to keep opulence and inequity in undeath.
+    - '*The voice on the other side of the radio is silent but a portal opens up.
+      The wanderer steps through.*'
+--- !u!4 &939410767
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939410765}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 872.58276, y: -457.2248, z: -1029.0181}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &980809502
 GameObject:
   m_ObjectHideFlags: 0
@@ -15722,7 +15932,7 @@ RectTransform:
   - {fileID: 706882383}
   - {fileID: 347931167}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -16014,7 +16224,7 @@ PrefabInstance:
     - target: {fileID: 5266693217232617245, guid: 546e54c79a4c98e4ca126a7429de41c7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5266693217232617245, guid: 546e54c79a4c98e4ca126a7429de41c7,
         type: 3}
@@ -16161,7 +16371,7 @@ Transform:
   m_Children:
   - {fileID: 862452255}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1262140523
 GameObject:
@@ -16218,7 +16428,7 @@ Transform:
   m_LocalScale: {x: 6.4125, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1393987943
 GameObject:
@@ -16406,7 +16616,7 @@ Transform:
   m_LocalScale: {x: 0.2800955, y: 0.2800955, z: 0.25730792}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1592823712
 Rigidbody2D:
@@ -16801,7 +17011,7 @@ Transform:
   - {fileID: 1393987944}
   - {fileID: 1653646712}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1845954270
 PrefabInstance:
@@ -17003,7 +17213,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: " \n"
+  m_Text: 
 --- !u!222 &2040232216
 CanvasRenderer:
   m_ObjectHideFlags: 0
