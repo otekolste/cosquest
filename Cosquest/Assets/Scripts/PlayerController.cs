@@ -217,7 +217,6 @@ public class PlayerController : MonoBehaviour
     {
 		Debug.Log("Respawn!\n");
 		transform.position = new Vector3(RespawnPoint.x, RespawnPoint.y + respawnOffset, RespawnPoint.z);
-		DeathSound.Play();
 	}
 
 	public void setIceControls(bool ice)

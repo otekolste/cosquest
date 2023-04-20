@@ -7,7 +7,6 @@ public class MainMenu : MonoBehaviour
 {
     public void NewGame()
     {
-        PlayerPrefs.DeleteAll();
         SceneManager.LoadScene("initial_cutscene");
     }
     public void SelectLevel()
