@@ -154,6 +154,7 @@ Transform:
   - {fileID: 990961835}
   - {fileID: 558723173}
   - {fileID: 1494384670}
+  - {fileID: 1127959650}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -462,7 +463,8 @@ MonoBehaviour:
   - Then you should know how imperative it is I get this crystal back to Earth.
   - Do you have any idea the kind of power it holds?
   - Even a fraction of this could power the Earth for years to come!
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 764658568845267529}
   name: Wanderer
 --- !u!82 &217542843 stripped
@@ -593,7 +595,8 @@ MonoBehaviour:
   - ...
   - You're lurking around here, aren't you?
   - Just show yourself. And then explain why you sabotaged that portal.
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 764658568845267529}
   name: Wanderer
 --- !u!1 &456923872
@@ -818,12 +821,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556247549}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef8c86aea6dea874296d83b9d707b777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movement_resistance: 0.7
+  movement_resistance: 0.2
 --- !u!212 &556247552
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -913,12 +916,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558723172}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef8c86aea6dea874296d83b9d707b777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movement_resistance: 0.7
+  movement_resistance: 0.2
 --- !u!212 &558723175
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1143,7 +1146,8 @@ MonoBehaviour:
   input:
   - But at what cost?
   - What do you think -
-  characterSprite: {fileID: 21300000, guid: 8901a79ef817b2649b877d6b3bb5370f, type: 3}
+  characterSprite: {fileID: -5118533029471820626, guid: fa6569c0d00e48546918394c571c60e1,
+    type: 3}
   sound: {fileID: 764658568845267529}
   name: '?'
 --- !u!224 &925788301 stripped
@@ -1203,7 +1207,8 @@ MonoBehaviour:
   input:
   - Is this a game to you?
   - Don't you realize that Earth is at stake here?
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 764658568845267529}
   name: Wanderer
 --- !u!1 &952394266
@@ -1363,12 +1368,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 990961834}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef8c86aea6dea874296d83b9d707b777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movement_resistance: 0.7
+  movement_resistance: 0.2
 --- !u!212 &990961837
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1471,7 +1476,8 @@ MonoBehaviour:
   - You don't know anything!
   - Just...get away from me. Leave me alone, for good this time.
   - Or else...I might do something both of us will regret.
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 764658568845267529}
   name: Wanderer
 --- !u!1 &1063493381
@@ -2382,6 +2388,42 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
+  - first: {x: -11, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: -10, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: -9, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: -8, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: -7, y: -4, z: 0}
     second:
       serializedVersion: 2
@@ -2662,6 +2704,42 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
   - first: {x: 204, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: -11, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: -10, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: -9, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: -8, y: -3, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -5363,17 +5441,17 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 414
+  - m_RefCount: 422
     m_Data: {fileID: 11400000, guid: bdfc3145f08373042a42324430bfe623, type: 2}
   - m_RefCount: 8
     m_Data: {fileID: 11400000, guid: a5aff1d3682891d4eb54fe2cfa50ba84, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 414
+  - m_RefCount: 422
     m_Data: {fileID: 21300000, guid: b88cf445d47d9e541b35828d81ffce51, type: 3}
   - m_RefCount: 8
     m_Data: {fileID: 21300000, guid: d028d237290dff545b1ac2636948f0a0, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 422
+  - m_RefCount: 430
     m_Data:
       e00: 1
       e01: 0
@@ -5392,13 +5470,13 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 422
+  - m_RefCount: 430
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -7, y: -7, z: 0}
-  m_Size: {x: 345, y: 13, z: 1}
+  m_Origin: {x: -11, y: -7, z: 0}
+  m_Size: {x: 349, y: 13, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -5568,6 +5646,101 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00869c1dec0be294c84a9a4777dbd8df, type: 3}
+--- !u!1 &1127959649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1127959650}
+  - component: {fileID: 1127959652}
+  - component: {fileID: 1127959651}
+  m_Layer: 0
+  m_Name: Sprite3_4 (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1127959650
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127959649}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -44.9, y: -1.2, z: 235.63477}
+  m_LocalScale: {x: 3.5284176, y: 4.8956795, z: 3.5284176}
+  m_Children: []
+  m_Father: {fileID: 17930423}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1127959651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127959649}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef8c86aea6dea874296d83b9d707b777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movement_resistance: 0.2
+--- !u!212 &1127959652
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127959649}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300008, guid: 6167b5d3cb29d52488e611c0cb2a074c, type: 3}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 17.320312, y: 2.2148438}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &1212582542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5583,7 +5756,7 @@ PrefabInstance:
     - target: {fileID: 577250640545069502, guid: f3afb58136c37fe419ac38c33424cf76,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.99
+      value: -6.83
       objectReference: {fileID: 0}
     - target: {fileID: 577250640545069502, guid: f3afb58136c37fe419ac38c33424cf76,
         type: 3}
@@ -5672,7 +5845,7 @@ PrefabInstance:
     - target: {fileID: 4856981308350862936, guid: 97a3c3ef95f06884e98eddd587092972,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.41
+      value: -6.34
       objectReference: {fileID: 0}
     - target: {fileID: 4856981308350862936, guid: 97a3c3ef95f06884e98eddd587092972,
         type: 3}
@@ -5785,7 +5958,8 @@ MonoBehaviour:
   - How is the energy crisis?
   - Don't look so shocked. Of course I know about the energy crisis. I know the planet
     is dying.
-  characterSprite: {fileID: 21300000, guid: 8901a79ef817b2649b877d6b3bb5370f, type: 3}
+  characterSprite: {fileID: -5118533029471820626, guid: fa6569c0d00e48546918394c571c60e1,
+    type: 3}
   sound: {fileID: 764658568845267529}
   name: '?'
 --- !u!1001 &1319130190
@@ -5896,12 +6070,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334777537}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef8c86aea6dea874296d83b9d707b777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movement_resistance: 0.7
+  movement_resistance: 0.2
 --- !u!212 &1334777540
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6056,7 +6230,8 @@ MonoBehaviour:
   - ...
   - You're catching on.
   - I did what I had to.
-  characterSprite: {fileID: 21300000, guid: 8901a79ef817b2649b877d6b3bb5370f, type: 3}
+  characterSprite: {fileID: -5118533029471820626, guid: fa6569c0d00e48546918394c571c60e1,
+    type: 3}
   sound: {fileID: 764658568845267529}
   name: '?'
 --- !u!224 &1484630110 stripped
@@ -6104,12 +6279,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494384669}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef8c86aea6dea874296d83b9d707b777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movement_resistance: 0.7
+  movement_resistance: 0.2
 --- !u!212 &1494384672
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7932,12 +8107,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042853813}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef8c86aea6dea874296d83b9d707b777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movement_resistance: 0.7
+  movement_resistance: 0.2
 --- !u!212 &2042853816
 SpriteRenderer:
   m_ObjectHideFlags: 0

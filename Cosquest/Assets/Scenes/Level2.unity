@@ -203,7 +203,8 @@ MonoBehaviour:
   - I can't just abandon my mission.
   - The Earth needs me...needs this crystal.
   - So just leave me alone.
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 1263107401}
   name: Wanderer
 --- !u!1 &83426470
@@ -10496,7 +10497,8 @@ MonoBehaviour:
   input:
   - Brrr...this planet is freezing...
   - I wish my suit had a heater built-in. Oh well, I'd better...
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 1263107401}
   name: Wanderer
 --- !u!1 &588102391
@@ -10965,7 +10967,8 @@ MonoBehaviour:
   input:
   - It's not that simple.
   - It's not too late for you to turn back now.
-  characterSprite: {fileID: 21300000, guid: 4f25f654f482d084a92bffbbcbe66a7a, type: 3}
+  characterSprite: {fileID: -5118533029471820626, guid: fa6569c0d00e48546918394c571c60e1,
+    type: 3}
   sound: {fileID: 1263107401}
   name: '?'
 --- !u!1 &788272779 stripped
@@ -11394,7 +11397,8 @@ MonoBehaviour:
   - ...
   - I did what I must.
   - I don't expect you to understand.
-  characterSprite: {fileID: 21300000, guid: 4f25f654f482d084a92bffbbcbe66a7a, type: 3}
+  characterSprite: {fileID: -5118533029471820626, guid: fa6569c0d00e48546918394c571c60e1,
+    type: 3}
   sound: {fileID: 1263107401}
   name: '?'
 --- !u!1 &952117976
@@ -11681,7 +11685,8 @@ MonoBehaviour:
   - What the...you!
   - I thought I saw something strange when my ship went down!
   - Why would you do something like that?
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 1263107401}
   name: Wanderer
 --- !u!1 &1132249257
@@ -12793,12 +12798,12 @@ PrefabInstance:
     - target: {fileID: 4856981308350862936, guid: 97a3c3ef95f06884e98eddd587092972,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.61878
+      value: -2.91
       objectReference: {fileID: 0}
     - target: {fileID: 4856981308350862936, guid: 97a3c3ef95f06884e98eddd587092972,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.0878608
+      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 4856981308350862936, guid: 97a3c3ef95f06884e98eddd587092972,
         type: 3}
@@ -13277,7 +13282,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input:
   - ...
-  characterSprite: {fileID: 21300000, guid: 4f25f654f482d084a92bffbbcbe66a7a, type: 3}
+  characterSprite: {fileID: -5118533029471820626, guid: fa6569c0d00e48546918394c571c60e1,
+    type: 3}
   sound: {fileID: 1263107401}
   name: '?'
 --- !u!1 &2075411493
@@ -13603,7 +13609,8 @@ MonoBehaviour:
   input:
   - You're right. I don't understand.
   - You're human too, aren't you? Why do you want me dead?
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 1263107401}
   name: Wanderer
 --- !u!1001 &577250640782250970

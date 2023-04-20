@@ -778,7 +778,8 @@ MonoBehaviour:
   - Alright, according to my updated map, I should only have one planet left to go
     after this one!
   - I just hope I don't run into that dino creep again...
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 1310251199}
   name: Wanderer
 --- !u!1 &519420028
@@ -2616,7 +2617,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  respawnOffset: 0
+  respawnOffset: 2
 --- !u!50 &1071080785
 Rigidbody2D:
   serializedVersion: 4
@@ -21614,8 +21615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input:
   - Psst...you might find some useful items around this cave!
-  - If you find a gun, you can temporarily shoot with left ctrl...
-  - And if you find a cloud, you can temporarily dash forwards with c!
+  - If you find a cloud, you can temporarily dash forwards with "c"!
   characterSprite: {fileID: 21300000, guid: 498a827ed86866049940c1bad4d1a8fb, type: 3}
   sound: {fileID: 1310251199}
   name: Sign

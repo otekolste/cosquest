@@ -535,7 +535,8 @@ MonoBehaviour:
   - I see...
   - There's one more thing I should mention.
   - Before crashing, I thought I saw, um...
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 891625695}
   name: Wanderer
 --- !u!1 &415896241
@@ -690,7 +691,8 @@ MonoBehaviour:
   input:
   - Alright then...well...
   - ...I suppose I'd better get going.
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 891625695}
   name: Wanderer
 --- !u!1 &533326422
@@ -744,7 +746,8 @@ MonoBehaviour:
   input:
   - ...um...it looked like...
   - ...Never mind. I was probably seeing things.
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 891625695}
   name: Wanderer
 --- !u!1 &639373932
@@ -931,7 +934,8 @@ MonoBehaviour:
   - ...*bzzt*...*bzzt*...
   - ...ugh, my head...
   - Wait, where...where am I?
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 891625695}
   name: Wanderer
 --- !u!1 &846193163
@@ -1276,7 +1280,8 @@ MonoBehaviour:
   - I have located it. It's currently being stored in the ship's storage.
   - But, er...the ship isn't exactly, well, functional right now...
   - How will I...
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 891625695}
   name: Wanderer
 --- !u!1 &1193504706
@@ -1628,7 +1633,8 @@ MonoBehaviour:
   input:
   - That's great news!
   - So if I can just find the portal on this planet, it'll take me back to Earth?
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 891625695}
   name: Wanderer
 --- !u!1 &1923828473
@@ -1683,7 +1689,8 @@ MonoBehaviour:
   - 'Ground control...? '
   - Um, yes, this is Agent 10-17, reporting in.
   - I believe I've crash-landed on a planet...sending coordinates now.
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 891625695}
   name: Wanderer
 --- !u!1 &1926156729

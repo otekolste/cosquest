@@ -5745,7 +5745,8 @@ MonoBehaviour:
   input:
   - According to the coordinates I was sent, the portal should be this way...
   - Let's just hope I don't run into any enemies.
-  characterSprite: {fileID: 21300000, guid: fee8adc60faf14017b785e637161546a, type: 3}
+  characterSprite: {fileID: 3308638047319900384, guid: 24474eea560117f4e851d251a9929010,
+    type: 3}
   sound: {fileID: 632850402}
   name: Wanderer
 --- !u!1 &1814583821
