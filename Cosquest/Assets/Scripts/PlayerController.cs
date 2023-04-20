@@ -181,6 +181,10 @@ public class PlayerController : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
+		if(collision.tag == "laser")
+        {
+			return;
+        }
 		if(collision.tag == "Powerup_Laser"){
 			Debug.Log("Powerup!\n");
 			Destroy(collision.gameObject);

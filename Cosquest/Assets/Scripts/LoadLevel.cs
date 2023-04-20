@@ -34,9 +34,8 @@ public class LoadLevel : MonoBehaviour
         SceneManager.LoadScene("Level5");
     }
 
-    public void OpenBoss()
+    public void OpenBossLevel()
     {
         SceneManager.LoadScene("Boss");
     }
-
 }

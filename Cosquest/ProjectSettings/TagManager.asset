@@ -13,6 +13,9 @@ TagManager:
   - Patrol
   - Powerup_Laser
   - Powerup_Dash
+  - boss
+  - laser
+  - diabox
   layers:
   - Default
   - TransparentFX
@@ -24,7 +27,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - boss
   - player
   - Enemy
   - platforms
@@ -61,4 +64,7 @@ TagManager:
     locked: 0
   - name: hotPlatforms
     uniqueID: 4222346095
+    locked: 0
+  - name: boss
+    uniqueID: 761947685
     locked: 0
