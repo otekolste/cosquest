@@ -13,6 +13,8 @@ TagManager:
   - Patrol
   - Powerup_Laser
   - Powerup_Dash
+  - boss
+  - laser
   layers:
   - Default
   - TransparentFX
