@@ -14,6 +14,5 @@ public class shootingItem : MonoBehaviour
         if(collision.GetComponent<ShootingAction>()){
             collision.GetComponent<ShootingAction>().Action();
         }
-        Destroy(gameObject);
     }
 }
