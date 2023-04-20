@@ -11,7 +11,8 @@ TagManager:
   - jumptag
   - Enemy
   - Patrol
-  - boss
+  - Powerup_Laser
+  - Powerup_Dash
   layers:
   - Default
   - TransparentFX
@@ -57,4 +58,7 @@ TagManager:
     locked: 0
   - name: platforms
     uniqueID: 69668193
+    locked: 0
+  - name: hotPlatforms
+    uniqueID: 4222346095
     locked: 0
