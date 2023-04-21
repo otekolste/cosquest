@@ -41,7 +41,7 @@ public class Shooting : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.LeftControl))
         {
             if (canShoot && canShootDelay)
             {

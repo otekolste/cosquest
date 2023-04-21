@@ -189,7 +189,7 @@ public class PlayerController : MonoBehaviour
 			Debug.Log("Powerup!\n");
 			Destroy(collision.gameObject);
 			shooting.canShoot = true;
-			StartCoroutine(ResetCanShoot());
+		//	StartCoroutine(ResetCanShoot());
 		}
 		if(collision.tag == "Powerup_Dash"){
 			Debug.Log("Powerup!\n");

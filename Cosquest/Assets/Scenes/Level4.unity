@@ -409,6 +409,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 21.8
       objectReference: {fileID: 0}
+    - target: {fileID: 2510920750275293091, guid: aa18abe5a114de44ba2711a553814b38,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenLevel5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa18abe5a114de44ba2711a553814b38, type: 3}
 --- !u!1 &203776606
@@ -7884,7 +7889,7 @@ Transform:
   m_GameObject: {fileID: 1816755845}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 10}
-  m_LocalScale: {x: 1.8784, y: 1.8784, z: 1.8784}
+  m_LocalScale: {x: 2.1678612, y: 2.1678612, z: 2.1678612}
   m_Children: []
   m_Father: {fileID: 952394269}
   m_RootOrder: 0

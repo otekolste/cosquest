@@ -2698,7 +2698,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1071080783}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -57.58, y: -3.73, z: 0}
+  m_LocalPosition: {x: -56, y: -3.6, z: 0}
   m_LocalScale: {x: 0.49112603, y: 0.50494325, z: 0.49112603}
   m_Children:
   - {fileID: 1562129643}
@@ -3876,12 +3876,12 @@ PrefabInstance:
     - target: {fileID: 3873982641283881780, guid: a53eb73b99c32d542a9a4051f4a829fd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 171.11505
+      value: 147.23
       objectReference: {fileID: 0}
     - target: {fileID: 3873982641283881780, guid: a53eb73b99c32d542a9a4051f4a829fd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.67844
+      value: 1.21
       objectReference: {fileID: 0}
     - target: {fileID: 3873982641283881780, guid: a53eb73b99c32d542a9a4051f4a829fd,
         type: 3}
@@ -3928,6 +3928,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3873982641283881782, guid: a53eb73b99c32d542a9a4051f4a829fd,
+        type: 3}
+      propertyPath: wanderer
+      value: 
+      objectReference: {fileID: 1071080784}
+    - target: {fileID: 3873982641283881782, guid: a53eb73b99c32d542a9a4051f4a829fd,
+        type: 3}
+      propertyPath: endScreen
+      value: 
+      objectReference: {fileID: 1697551636}
+    - target: {fileID: 3873982641283881782, guid: a53eb73b99c32d542a9a4051f4a829fd,
+        type: 3}
+      propertyPath: music
+      value: 
+      objectReference: {fileID: 1520003209}
+    - target: {fileID: 3873982641283881782, guid: a53eb73b99c32d542a9a4051f4a829fd,
+        type: 3}
+      propertyPath: playerAnim
+      value: 
+      objectReference: {fileID: 1071080789}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a53eb73b99c32d542a9a4051f4a829fd, type: 3}
 --- !u!1 &1593551531
@@ -4204,9 +4224,26 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OpenLevelSelect
       objectReference: {fileID: 0}
+    - target: {fileID: 2510920750275293091, guid: aa18abe5a114de44ba2711a553814b38,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenLevel5
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4337694982525103405, guid: aa18abe5a114de44ba2711a553814b38, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: aa18abe5a114de44ba2711a553814b38, type: 3}
+--- !u!114 &1697551636 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2510920748930305459, guid: aa18abe5a114de44ba2711a553814b38,
+    type: 3}
+  m_PrefabInstance: {fileID: 1648619261}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1737837045
 GameObject:
   m_ObjectHideFlags: 0

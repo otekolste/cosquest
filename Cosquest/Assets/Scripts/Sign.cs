@@ -22,6 +22,7 @@ public class Sign : MonoBehaviour
         if (isInRange && Input.GetButtonDown("Interact"))
         {
             dm.dialogueSequence(imageHolder, delay, delayBetweenLines, textHolder, nameHolder);
+            isInRange = false;
         }
 
     }
@@ -33,5 +34,11 @@ public class Sign : MonoBehaviour
             isInRange = true;
         }
 
+    }
+
+    void OnTriggerExit2d(Collider2D other)
+    {
+        isInRange = false;
+        Debug.Log("ye");
     }
 }
